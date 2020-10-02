@@ -27,7 +27,7 @@ $lang['qlink_galeri'] = 'Galeri';
 $lang['qlink_pellet'] = 'Bijih Daur Ulang Plastik';
 $lang['qlink_bag'] = 'Kantong Plastik';
 $lang['qlink_hr'] = 'Manajemen SDM';
-$lang['qlink_career'] = 'Kesempatan Berkarir';
+$lang['qlink_career'] = 'Karir';
 $lang['qlink_contact'] = 'Kontak Kami';
 
 //Subscribe

@@ -15,17 +15,18 @@ class Home extends CI_Controller {
 		//$data['title'] = 'Dashboard | INS E-Form';
         // $data['page_menu'] = 'Dashboard';
 		// $data['map'] = '<li class="breadcrumb-item active">Dashboard</li>';
-		// $lang = $this->lang->line('text_nation');
+		$lang = $this->lang->line('text_nation');
 
-		// //set cookie if not exist
+		//set cookie if not exist
 		// if(!isset($_COOKIE['device-browser'])) {
 			
 		// } 
 
-		// $data['slider'] = $this->home->getactiveSlider($lang)->result();
+		//$data['slider'] = $this->home->getactiveSlider($lang)->result();
+		$data = [];
 
-        // $data['contents'] = $this->load->view('home/index', $data, true);
-		// $this->load->view('layout/main', $data);
-		$this->load->view('layout/main');
+		$data['contents'] = $this->load->view('home/index', $data, true);
+		$this->load->view('layout/main', $data);
+		//$this->load->view('layout/main');
 	}
 }

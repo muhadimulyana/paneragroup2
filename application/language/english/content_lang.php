@@ -32,7 +32,7 @@ $lang['qlink_galeri'] = 'Gallery';
 $lang['qlink_pellet'] = 'Recycled Plastic Resin';
 $lang['qlink_bag'] = 'Plastics Bag';
 $lang['qlink_hr'] = 'Human Resource';
-$lang['qlink_career'] = 'Career Opportunities';
+$lang['qlink_career'] = 'Career';
 $lang['qlink_contact'] = 'Contact Us';
 
 //Subscribe
