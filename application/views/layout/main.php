@@ -245,7 +245,8 @@
 			<div class="row align-items-center">
 				<div class="col-sm-6">
 					<div class="text-sm-left">
-						<p class="mb-0">© 2020 PAN ERA Group. Craft with <i class="mdi mdi-heart text-danger"></i> by
+						<p class="mb-0">© 2020 PAN ERA Group. All rights reserved. Craft with <i
+								class="mdi mdi-heart text-danger"></i> by
 							IT Team.
 						</p>
 					</div>

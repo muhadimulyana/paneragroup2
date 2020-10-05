@@ -22,8 +22,8 @@ class Home extends CI_Controller {
 			
 		// } 
 
-		//$data['slider'] = $this->home->getactiveSlider($lang)->result();
-		$data = [];
+		$data['slider'] = $this->home->getactiveSlider($lang)->result();
+		//$data = [];
 
 		$data['contents'] = $this->load->view('home/index', $data, true);
 		$this->load->view('layout/main', $data);

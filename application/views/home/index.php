@@ -1,62 +1,25 @@
 	<!-- Hero Start -->
 	<section class="main-slider">
 		<ul class="slides">
+			<?php foreach($slider as $row) : ?>
 			<li class="bg-slider bg-animation-left d-flex align-items-center"
-				style="background-image:url('<?= base_url(); ?>assets/front/images/hotel/bg01.jpg')">
+				style="background-image:url('<?= base_url(); ?>assets/images/slider/<?= $row->GAMBAR; ?>')">
 				<div class="container">
 					<div class="row align-items-center">
 						<div class="col-lg-7 col-md-7">
 							<div class="title-heading position-relative mt-4" style="z-index: 1;">
-								<h1 class="heading mb-3">Enjoy Better Holidays With Landrick Resort</h1>
-								<p class="para-desc">Launch your campaign and benefit from our expertise on designing
-									and managing conversion centered bootstrap4 html page.</p>
+								<h1 class="heading mb-3"><?= $row->JUDUL; ?></h1>
+								<p class="para-desc"><?= $row->ISI; ?></p>
 								<div class="watch-video mt-4 pt-2">
-									<a href="https://www.youtube.com/watch?v=jNTZpfXYJa4"
-										class="video-play-icon watch text-dark"><i
-											class="mdi mdi-play play-icon-circle text-center d-inline-block mr-2 rounded-circle text-white title-dark position-relative play play-iconbar"></i>
-										WATCH VIDEO</a>
+									<a href="#parallax" class="btn btn-primary mouse-down"><i
+											class="mdi mdi-home-assistant"></i> Selengkapnya</a>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</li>
-			<li class="bg-slider bg-animation-left d-flex align-items-center"
-				style="background-image:url('<?= base_url(); ?>assets/front/images/hotel/bg02.jpg')">
-				<div class="container">
-					<div class="row align-items-center">
-						<div class="col-lg-7 col-md-7">
-							<div class="title-heading position-relative mt-4" style="z-index: 1;">
-								<h1 class="heading mb-3">Enjoy The World of Relaxation</h1>
-								<p class="para-desc">Launch your campaign and benefit from our expertise on designing
-									and managing conversion centered bootstrap4 html page.</p>
-								<div class="watch-video mt-4 pt-2">
-									<a href="page-aboutus.html" class="btn btn-primary"><i class="mdi mdi-briefcase"></i>
-										Aboutus</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</li>
-			<li class="bg-slider bg-animation-left d-flex align-items-center"
-				style="background-image:url('<?= base_url(); ?>assets/front/images/hotel/bg03.jpg')">
-				<div class="container">
-					<div class="row align-items-center">
-						<div class="col-lg-7 col-md-7">
-							<div class="title-heading position-relative mt-4" style="z-index: 1;">
-								<h1 class="heading mb-3">Welcome Landrick <br> A Stunning Hotel</h1>
-								<p class="para-desc">Launch your campaign and benefit from our expertise on designing
-									and managing conversion centered bootstrap4 html page.</p>
-								<div class="mt-4 pt-2">
-									<a href="#bookroom" class="btn btn-primary mouse-down"><i
-											class="mdi mdi-home-assistant"></i> Book now</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</li>
+			<?php endforeach; ?>
 		</ul>
 	</section>
 	<!--end section-->
@@ -357,37 +320,36 @@
 	<!--end section-->
 	<!-- Blog End -->
 
-	<!-- Client Start -->
-	<section class="section"
-		style="background: url('<?= base_url(); ?>assets/front/images/hotel/bg05.jpg') center center;">
-		<div class="bg-overlay"></div>
+	<!-- Start -->
+	<section class="section" id="parallax" style="padding: 50px 0;">
 		<!-- Start CTA -->
 		<div class="container-fluid mt-100 mt-60">
-			<div class="rounded py-5" style="background: url('images/shop/cta.jpg') fixed;">
-				<div class="container">
-					<div class="row">
-						<div class="col-12">
-							<div class="section-title">
-								<h2 class="font-weight-bold mb-4">End of Season Clearance <br> Sale upto 30%</h2>
-								<p class="para-desc para-white text-muted mb-0">Launch your campaign and benefit from our
-									expertise on designing and managing conversion centered bootstrap4 html page.</p>
-								<div class="mt-4">
-									<a href="javascript:void(0)" class="btn btn-primary">Shop Now</a>
+			<div class="rounded"
+				style="background: url('<?= base_url(); ?>assets/images/home/a.jpg'); background-attachment: fixed; background-size: cover; background-position:center;">
+				<div class="py-5" style="background: rgba(255, 255, 255, 0.775);">
+					<div class="container">
+						<div class="row">
+							<div class="col-12">
+								<div class="section-title text-center mt-lg-3">
+									<img class="logo-panera" src="<?= base_url(); ?>assets/images/logo/panera.png"
+										style="height: 180px;" alt="">
 								</div>
 							</div>
+							<!--end col-->
 						</div>
-						<!--end col-->
+						<!--end row-->
 					</div>
-					<!--end row-->
+					<!--end container-->
 				</div>
-				<!--end container-->
 			</div>
 		</div>
 		<!--end container-->
 		<!-- End CTA -->
-		<!-- Client End -->
+
+
 	</section>
-	<!-- Client End -->
+	<!--end section-->
+	<!-- End -->
 
 	<!-- Contact Start -->
 	<section class="section">
