@@ -44,6 +44,14 @@
 			.logo-panera {
 				height: 50px !important;
 			}
+
+			.des-side {
+				display: none;
+			}
+
+			.mob-side {
+				display: block !important;
+			}
 		}
 
 	</style>
@@ -291,6 +299,7 @@
 	<!-- Magnific Popup -->
 	<script src="<?= base_url(); ?>assets/front/js/jquery.magnific-popup.min.js"></script>
 	<script src="<?= base_url(); ?>assets/front/js/magnific.init.js"></script>
+	<script src="<?= base_url(); ?>assets/front/js/portfolio.init.js"></script>
 	<!-- SLIDER -->
 	<script src="<?= base_url(); ?>assets/front/js/owl.carousel.min.js "></script>
 	<script src="<?= base_url(); ?>assets/front/js/owl.init.js "></script>

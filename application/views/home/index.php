@@ -321,7 +321,7 @@
 	<!-- Blog End -->
 
 	<!-- Start -->
-	<section class="section" id="parallax" style="padding: 50px 0;">
+	<section class="section" style="padding: 50px 0;">
 		<!-- Start CTA -->
 		<div class="container-fluid mt-100 mt-60">
 			<div class="rounded"
@@ -332,7 +332,7 @@
 							<div class="col-12">
 								<div class="section-title text-center mt-lg-3">
 									<img class="logo-panera" src="<?= base_url(); ?>assets/images/logo/panera.png"
-										style="height: 180px;" alt="">
+										style="height: 180px;" alt="" id="parallax">
 								</div>
 							</div>
 							<!--end col-->

@@ -12,14 +12,10 @@ class Product extends CI_Controller {
 
 	public function index()
 	{
-		$id = isset($_GET['id']) ? $_GET['id'] : 1 ;
+		//$id = isset($_GET['id']) ? $_GET['id'] : 1 ;
 		$lang = $this->lang->line('text_nation');
         $data = [];
-        if($id == 1){
-            $data['contents'] = $this->load->view('product/bijih', $data, true);
-        } else {
-            $data['contents'] = $this->load->view('product/plastic', $data, true);
-        }
+        $data['contents'] = $this->load->view('product/index', $data, true);
 		$this->load->view('layout/main', $data);
 	}
 }
