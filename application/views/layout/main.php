@@ -52,6 +52,10 @@
 			.mob-side {
 				display: block !important;
 			}
+
+			/* .main-slider {
+				height: 100vh;
+			} */
 		}
 
 	</style>
@@ -251,32 +255,18 @@
 	<footer class="footer footer-bar">
 		<div class="container text-center">
 			<div class="row align-items-center">
-				<div class="col-sm-6">
+				<div class="col-sm-9">
 					<div class="text-sm-left">
-						<p class="mb-0">© 2020 PAN ERA Group. All rights reserved. Craft with <i
-								class="mdi mdi-heart text-danger"></i> by
-							IT Team.
+						<p class="mb-0">© 2020 PAN ERA Group. All rights reserved.
 						</p>
 					</div>
 				</div>
 				<!--end col-->
 
-				<div class="col-sm-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
-					<ul class="list-unstyled payment-cards text-sm-right mb-0">
-						<li class="list-inline-item"><a href="javascript:void(0)"><img
-									src="images/payments/american-ex.png" class="avatar avatar-ex-sm"
-									title="American Express" alt=""></a></li>
-						<li class="list-inline-item"><a href="javascript:void(0)"><img
-									src="images/payments/discover.png" class="avatar avatar-ex-sm" title="Discover"
-									alt=""></a></li>
-						<li class="list-inline-item"><a href="javascript:void(0)"><img
-									src="images/payments/master-card.png" class="avatar avatar-ex-sm"
-									title="Master Card" alt=""></a></li>
-						<li class="list-inline-item"><a href="javascript:void(0)"><img src="images/payments/paypal.png"
-									class="avatar avatar-ex-sm" title="Paypal" alt=""></a></li>
-						<li class="list-inline-item"><a href="javascript:void(0)"><img src="images/payments/visa.png"
-									class="avatar avatar-ex-sm" title="Visa" alt=""></a></li>
-					</ul>
+				<div class="col-sm-3 mt-sm-0 pt-2 pt-sm-0">
+					<p class="mb-0">Craft with <i class="mdi mdi-heart text-danger"></i> by
+						IT Team.
+					</p>
 				</div>
 				<!--end col-->
 			</div>

@@ -3,7 +3,7 @@
 		<ul class="slides">
 			<?php foreach($slider as $row) : ?>
 			<li class="bg-slider bg-animation-left d-flex align-items-center"
-				style="background-image:url('<?= base_url(); ?>assets/images/slider/<?= $row->GAMBAR; ?>')">
+				style="background-image:url('<?= base_url(); ?>assets/images/slider/<?= $row->GAMBAR; ?>'); background-size: cover; min-height: 100vh;">
 				<div class="container">
 					<div class="row align-items-center">
 						<div class="col-lg-7 col-md-7">
@@ -28,7 +28,7 @@
 	<!-- Start Plan -->
 	<section class="section bg-light">
 
-		<div class="container mt-100 mt-60">
+		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-lg-5 col-md-5 col-12">
 					<img src="<?= base_url(); ?>assets/images/home/new.png" style="max-width: 80%;"
@@ -345,8 +345,6 @@
 		</div>
 		<!--end container-->
 		<!-- End CTA -->
-
-
 	</section>
 	<!--end section-->
 	<!-- End -->
