@@ -30,7 +30,8 @@
 	<!-- Main Css -->
 	<link href="<?= base_url(); ?>assets/front/css/style.css" rel="stylesheet" type="text/css" id="theme-opt" />
 	<link href="<?= base_url(); ?>assets/front/css/colors/default.css" rel="stylesheet" id="color-opt">
-
+	<!-- JQuery -->
+	<script src="<?= base_url(); ?>assets/front/js/jquery-3.5.1.min.js"></script>
 	<style>
 		.text-lang {
 			display: none;
@@ -56,6 +57,10 @@
 			/* .main-slider {
 				height: 100vh;
 			} */
+
+			.share-w {
+				display: block !important;
+			}
 		}
 
 	</style>
@@ -105,7 +110,7 @@
 					<?php $menu = $this->Menu_m->getmenubyLang($this->lang->line('text_nation'))->result(); 
 					foreach($menu as $row) : ?>
 					<?php if($row->HAVE_SUB == 0) : ?>
-					<li style="margin: 0 5px;"><a href="<?= $row->URL; ?>"><?= $row->MENU; ?></a></li>
+					<li style="margin: 0 5px;"><a href="<?= site_url() . $row->URL; ?>"><?= $row->MENU; ?></a></li>
 					<?php else : ?>
 					<li style="margin: 0 5px;" class="has-submenu">
 						<a href="javascript:void(0)"><?= $row->MENU; ?></a><span class="menu-arrow"></span>
@@ -114,7 +119,7 @@
 								<ul>
 									<?php $submenu = $this->Menu_m->getsubbylangIdMenu($this->lang->line('text_nation'), $row->ID_MENU)->result(); 
                     				foreach($submenu as $sub) : ?>
-									<li><a href="<?= $sub->URL; ?>"><?= $sub->SUB_MENU;?></a></li>
+									<li><a href="<?= site_url() .  $sub->URL; ?>"><?= $sub->SUB_MENU;?></a></li>
 									<?php endforeach; ?>
 								</ul>
 							</li>
@@ -282,7 +287,6 @@
 	<!-- Back to top -->
 
 	<!-- javascript -->
-	<script src="<?= base_url(); ?>assets/front/js/jquery-3.5.1.min.js"></script>
 	<script src="<?= base_url(); ?>assets/front/js/bootstrap.bundle.min.js"></script>
 	<script src="<?= base_url(); ?>assets/front/js/jquery.easing.min.js"></script>
 	<script src="<?= base_url(); ?>assets/front/js/scrollspy.min.js"></script>

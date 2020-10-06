@@ -17,4 +17,12 @@ class News extends CI_Controller {
         $data['contents'] = $this->load->view('news/index', $data, true);
 		$this->load->view('layout/main', $data);
 	}
+
+	public function detail()
+	{
+		$lang = $this->lang->line('text_nation');
+        $data = [];
+        $data['contents'] = $this->load->view('news/detail', $data, true);
+		$this->load->view('layout/main', $data);
+	}
 }

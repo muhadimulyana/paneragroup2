@@ -52,7 +52,8 @@
 								<div class="overlay rounded-top bg-dark"></div>
 							</div>
 							<div class="card-body content">
-								<h5><a href="javascript:void(0)" class="card-title title text-dark">Family Gathering di
+								<h5><a href="<?= base_url('news/detail'); ?>" class="card-title title text-dark">Family
+										Gathering di
 										<br>Jungle
 										Land
 
@@ -67,7 +68,7 @@
 													class="mdi mdi-comment-outline mr-1"></i>08</a>
 										</li>
 									</ul>
-									<a href="page-blog-detail.html" class="text-muted readmore">Read More <i
+									<a href="<?= base_url('news/detail'); ?>" class="text-muted readmore">Read More <i
 											class="mdi mdi-chevron-right"></i></a>
 								</div>
 							</div>
@@ -447,9 +448,7 @@
 						<div class="widget mb-4 pb-2">
 							<h4 class="widget-title">Catagories</h4>
 							<ul class="list-unstyled mt-4 mb-0 blog-catagories">
-								<li><a href="jvascript:void(0)">Finance</a> <span class="float-right">13</span></li>
 								<li><a href="jvascript:void(0)">Business</a> <span class="float-right">09</span></li>
-								<li><a href="jvascript:void(0)">Blog</a> <span class="float-right">18</span></li>
 								<li><a href="jvascript:void(0)">Corporate</a> <span class="float-right">20</span></li>
 								<li><a href="jvascript:void(0)">Investment</a> <span class="float-right">22</span></li>
 							</ul>
