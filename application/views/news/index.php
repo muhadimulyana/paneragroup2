@@ -104,7 +104,7 @@
 													class="mdi mdi-comment-outline mr-1"></i>08</a>
 										</li>
 									</ul>
-									<a href="page-blog-detail.html" class="text-muted readmore">Read More <i
+									<a href="<?= base_url('news/detail'); ?>" class="text-muted readmore">Read More <i
 											class="mdi mdi-chevron-right"></i></a>
 								</div>
 							</div>
@@ -140,7 +140,7 @@
 													class="mdi mdi-comment-outline mr-1"></i>08</a>
 										</li>
 									</ul>
-									<a href="page-blog-detail.html" class="text-muted readmore">Read More <i
+									<a href="<?= base_url('news/detail'); ?>" class="text-muted readmore">Read More <i
 											class="mdi mdi-chevron-right"></i></a>
 								</div>
 							</div>
@@ -176,7 +176,7 @@
 													class="mdi mdi-comment-outline mr-1"></i>08</a>
 										</li>
 									</ul>
-									<a href="page-blog-detail.html" class="text-muted readmore">Read More <i
+									<a href="<?= base_url('news/detail'); ?>" class="text-muted readmore">Read More <i
 											class="mdi mdi-chevron-right"></i></a>
 								</div>
 							</div>
@@ -212,7 +212,7 @@
 													class="mdi mdi-comment-outline mr-1"></i>08</a>
 										</li>
 									</ul>
-									<a href="page-blog-detail.html" class="text-muted readmore">Read More <i
+									<a href="<?= base_url('news/detail'); ?>" class="text-muted readmore">Read More <i
 											class="mdi mdi-chevron-right"></i></a>
 								</div>
 							</div>
@@ -248,7 +248,7 @@
 													class="mdi mdi-comment-outline mr-1"></i>08</a>
 										</li>
 									</ul>
-									<a href="page-blog-detail.html" class="text-muted readmore">Read More <i
+									<a href="<?= base_url('news/detail'); ?>" class="text-muted readmore">Read More <i
 											class="mdi mdi-chevron-right"></i></a>
 								</div>
 							</div>
@@ -284,7 +284,7 @@
 													class="mdi mdi-comment-outline mr-1"></i>08</a>
 										</li>
 									</ul>
-									<a href="page-blog-detail.html" class="text-muted readmore">Read More <i
+									<a href="<?= base_url('news/detail'); ?>" class="text-muted readmore">Read More <i
 											class="mdi mdi-chevron-right"></i></a>
 								</div>
 							</div>
@@ -320,7 +320,7 @@
 													class="mdi mdi-comment-outline mr-1"></i>08</a>
 										</li>
 									</ul>
-									<a href="page-blog-detail.html" class="text-muted readmore">Read More <i
+									<a href="<?= base_url('news/detail'); ?>" class="text-muted readmore">Read More <i
 											class="mdi mdi-chevron-right"></i></a>
 								</div>
 							</div>
@@ -356,7 +356,7 @@
 													class="mdi mdi-comment-outline mr-1"></i>08</a>
 										</li>
 									</ul>
-									<a href="page-blog-detail.html" class="text-muted readmore">Read More <i
+									<a href="<?= base_url('news/detail'); ?>" class="text-muted readmore">Read More <i
 											class="mdi mdi-chevron-right"></i></a>
 								</div>
 							</div>
@@ -392,7 +392,7 @@
 													class="mdi mdi-comment-outline mr-1"></i>08</a>
 										</li>
 									</ul>
-									<a href="page-blog-detail.html" class="text-muted readmore">Read More <i
+									<a href="<?= base_url('news/detail'); ?>" class="text-muted readmore">Read More <i
 											class="mdi mdi-chevron-right"></i></a>
 								</div>
 							</div>

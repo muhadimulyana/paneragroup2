@@ -30,6 +30,8 @@
 	<!-- Main Css -->
 	<link href="<?= base_url(); ?>assets/front/css/style.css" rel="stylesheet" type="text/css" id="theme-opt" />
 	<link href="<?= base_url(); ?>assets/front/css/colors/default.css" rel="stylesheet" id="color-opt">
+	<!-- Foxx -->
+	<link rel="stylesheet" href="<?= base_url(); ?>assets/plugins/foxx/foxx-css/foxx.css">
 	<!-- JQuery -->
 	<script src="<?= base_url(); ?>assets/front/js/jquery-3.5.1.min.js"></script>
 	<style>
@@ -84,7 +86,7 @@
 		<div class="container">
 			<!-- Logo container-->
 			<div>
-				<a class="logo" style="padding: 5px 0 0 0;" href="index.html">
+				<a class="logo" style="padding: 5px 0 0 0;" href="<?= base_url(); ?>">
 					<img class="logo-panera" src="<?= base_url(); ?>assets/images/logo/panera.png" style="height: 65px;"
 						alt="">
 				</a>
@@ -193,15 +195,15 @@
 				<div class="col-lg-2 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
 					<h4 class="text-light footer-head">Company</h4>
 					<ul class="list-unstyled footer-list mt-4">
-						<li><a href="page-aboutus.html" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i>
+						<li><a href="<?= site_url('profile#company'); ?>" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i>
 								<?= $this->lang->line('qlink_profile'); ?></a></li>
-						<li><a href="page-services.html" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i>
+						<li><a href="<?= site_url('profile#vision'); ?>" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i>
 								<?= $this->lang->line('qlink_vision'); ?></a></li>
-						<li><a href="page-team.html" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i>
+						<li><a href="<?= site_url('news'); ?>" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i>
 								<?= $this->lang->line('qlink_news'); ?></a></li>
-						<li><a href="page-pricing.html" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i>
+						<li><a href="<?= site_url('management'); ?>" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i>
 								<?= $this->lang->line('qlink_hr'); ?></a></li>
-						<li><a href="page-work-modern.html" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i>
+						<li><a href="<?= site_url('career'); ?>" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i>
 								<?= $this->lang->line('qlink_career'); ?></a></li>
 						<!-- <li><a href="page-jobs.html" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i>
 								Careers</a></li>
@@ -216,11 +218,11 @@
 				<div class="col-lg-3 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
 					<h4 class="text-light footer-head">Usefull Links</h4>
 					<ul class="list-unstyled footer-list mt-4">
-						<li><a href="page-terms.html" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Terms
+						<li><a href="javascript:void" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Terms
 								of Services</a></li>
-						<li><a href="page-privacy.html" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i>
+						<li><a href="javascript:void" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i>
 								Privacy Policy</a></li>
-						<li><a href="documentation.html" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i>
+						<li><a href="javascript:void" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i>
 								Sitemap</a></li>
 						<!-- <li><a href="changelog.html" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i>
 								Changelog</a></li>
@@ -269,7 +271,7 @@
 				<!--end col-->
 
 				<div class="col-sm-3 mt-sm-0 pt-2 pt-sm-0">
-					<p class="mb-0">Craft with <i class="mdi mdi-heart text-danger"></i> by
+					<p class="mb-0 ml-5">Craft with <i class="mdi mdi-heart text-danger"></i> by
 						IT Team.
 					</p>
 				</div>
@@ -303,13 +305,37 @@
 	<!-- Datepicker -->
 	<script src="<?= base_url(); ?>assets/front/js/flatpickr.min.js"></script>
 	<script src="<?= base_url(); ?>assets/front/js/flatpickr.init.js"></script>
+	<!-- Parallax -->
+	<script src="<?= base_url(); ?>assets/front/js/parallax.js "></script>
 	<!-- Contact -->
 	<script src="<?= base_url(); ?>assets/front/js/contact.js"></script>
 	<!-- Icons -->
 	<script src="<?= base_url(); ?>assets/front/js/feather.min.js"></script>
 	<script src="https://unicons.iconscout.com/release/v2.1.9/script/monochrome/bundle.js"></script>
+	<!-- Foxx -->
+	<script src="<?= base_url(); ?>assets/plugins/foxx/foxx.js"></script>
 	<!-- Main Js -->
 	<script src="<?= base_url(); ?>assets/front/js/app.js"></script>
+
+	<script>
+		$(function () {
+			<?php if (!isset($_COOKIE['device-browser'])): setcookie('device-browser', 'Chrome', time() + (86400 * 30), "/"); ?>
+
+			fx.toast.info({
+					title: 'This website use cookies',
+					body: 'By continuing to browse, you are agreeing to our use of cookies as explained in our <a style="text-decoration: underline;" target="_blank" href="https://www.paneragroup.com/company/privacy">Privacy and Policy</a>',
+					opt: {
+						css: 'light',
+						position: 'place_bottom_right',
+						timeOut: 20000,
+						delay: 0,
+						dismiss: true
+					}
+				}) 
+			<?php endif; ?>
+		});
+
+	</script>
 </body>
 
 </html>
