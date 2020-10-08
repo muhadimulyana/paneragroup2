@@ -58,7 +58,7 @@
 						rendahnya tingkat pergantian tenaga kerja menjadi indikasi suksesnya manajemen sumber daya
 						manusia di organisasi kami.
 					</p>
-					<a href="javascript:void(0)" class="btn btn-primary mt-3">Tentang Kami Selengkapnya <i
+					<a href="<?= site_url('profile'); ?>" class="btn btn-primary mt-3">Tentang Kami Selengkapnya <i
 							class="mdi mdi-chevron-right"></i></a>
 				</div>
 			</div>
@@ -94,7 +94,7 @@
 									class="uim uim-check-circle"></i></span>Pasar Kerja Internal Yang Relatif Stabil
 						</li>
 					</ul>
-					<a href="javascript:void(0)" class="btn btn-primary mt-3">Karir Bersama Kami <i
+					<a href="<?= site_url('career'); ?>" class="btn btn-primary mt-3">Karir Bersama Kami <i
 							class="mdi mdi-chevron-right"></i></a>
 				</div>
 			</div>
@@ -125,7 +125,7 @@
 					<p class="text-muted">Apabila anda tertarik untuk bergabung dengan kami, silahkan mengunjungi laman
 						<a href="<?= site_url('career'); ?>">kesempatan berkarir bersama Pan Era Group</a>
 					</p>
-					<a href="javascript:void(0)" class="btn btn-primary mt-3">Kontak Kami <i
+					<a href="<?= site_url('contact'); ?>" class="btn btn-primary mt-3">Kontak Kami <i
 							class="mdi mdi-chevron-right"></i></a>
 				</div>
 			</div>

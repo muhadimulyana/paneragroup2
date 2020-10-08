@@ -155,7 +155,7 @@
 	<?= $contents; ?>
 
 	<!-- Shape Start -->
-	<div class="position-relative" style="margin-top: 50px;">
+	<div id="wave" class="position-relative" style="margin-top: 50px;">
 		<div class="shape overflow-hidden text-footer">
 			<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
 				<path fill="#202942" fill-opacity="1"
@@ -271,7 +271,7 @@
 				<!--end col-->
 
 				<div class="col-sm-3 mt-sm-0 pt-2 pt-sm-0">
-					<p class="mb-0 ml-5">Craft with <i class="mdi mdi-heart text-danger"></i> by
+					<p class="mb-0">Crafted with <i class="mdi mdi-heart text-danger"></i> by
 						IT Team.
 					</p>
 				</div>
@@ -319,20 +319,20 @@
 
 	<script>
 		$(function () {
-			<?php if (!isset($_COOKIE['device-browser'])): setcookie('device-browser', 'Chrome', time() + (86400 * 30), "/"); ?>
+			// <?php if (!isset($_COOKIE['device-browser'])): setcookie('device-browser', 'Chrome', time() + (86400 * 30), "/"); ?>
 
-			fx.toast.info({
-					title: 'This website use cookies',
-					body: 'By continuing to browse, you are agreeing to our use of cookies as explained in our <a style="text-decoration: underline;" target="_blank" href="https://www.paneragroup.com/company/privacy">Privacy and Policy</a>',
-					opt: {
-						css: 'light',
-						position: 'place_bottom_right',
-						timeOut: 20000,
-						delay: 0,
-						dismiss: true
-					}
-				}) 
-			<?php endif; ?>
+			// fx.toast.info({
+			// 		title: 'This website use cookies',
+			// 		body: 'By continuing to browse, you are agreeing to our use of cookies as explained in our <a style="text-decoration: underline;" target="_blank" href="https://www.paneragroup.com/company/privacy">Privacy and Policy</a>',
+			// 		opt: {
+			// 			css: 'light',
+			// 			position: 'place_bottom_right',
+			// 			timeOut: 20000,
+			// 			delay: 0,
+			// 			dismiss: true
+			// 		}
+			// 	}) 
+			// <?php endif; ?>
 		});
 
 	</script>
