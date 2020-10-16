@@ -1,6 +1,6 @@
 <!-- Hero Start -->
 <section class="bg-half d-table w-100"
-	style="background: url('<?= base_url(); ?>assets/images/news/media-online.jpg') center; background-size: cover;">
+	style="background: url('<?= base_url(); ?>assets/images/news/media-online.jpg') center; background-size: cover;  background-attachment: fixed;">
 	<div class="bg-overlay"></div>
 	<div class="container">
 		<div class="row justify-content-center">

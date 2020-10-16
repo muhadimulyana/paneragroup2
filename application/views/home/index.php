@@ -10,7 +10,7 @@
 	<ul class="slides">
 		<?php foreach($slider as $row) : ?>
 		<li class="bg-slider bg-animation-left d-flex align-items-center"
-			style="background-image:url('<?= base_url(); ?>assets/images/slider/<?= $row->GAMBAR; ?>'); background-size: cover; min-height: 100vh;">
+			style="background-image:url('<?= base_url(); ?>assets/images/slider/<?= $row->GAMBAR; ?>'); background-size: cover; min-height: 100vh; background-attachment: fixed;">
 			<div class="container">
 				<div class="row align-items-center">
 					<div class="col-lg-7 col-md-7">
@@ -154,7 +154,8 @@
 					</div>
 
 					<div class="content mt-4">
-						<h4 class="title-2"><a href="<?= site_url('product#resin'); ?>">Bijih Plastik Daur Ulang</a></h4>
+						<h4 class="title-2"><a href="<?= site_url('product#resin'); ?>">Bijih Plastik Daur Ulang</a>
+						</h4>
 						<p class="text-muted mb-0">Produk ramah lingkungan yang menjadi inti dan asal identitas kami
 						</p>
 					</div>
