@@ -224,13 +224,13 @@
 <!-- End services -->
 
 <!-- News Start -->
-<section class="section pt-5 pt-sm-0 pt-md-4 bg-light">
+<section class="section pt-5 pt-sm-0 pt-md-4 bg-primary">
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-12 text-center">
 				<div class="section-title mb-4 pb-2">
-					<h4 class="title mb-4">Media Dan Informasi</h4>
-					<p class="text-muted para-desc mx-auto mb-0">Kumpulan Berita & Informasi Terlengkap Dan Terbaru<br>
+					<h4 class="title mb-4 text-white">Media Dan Informasi</h4>
+					<p class="text-white para-desc mx-auto mb-0">Kumpulan Berita & Informasi Terlengkap Dan Terbaru<br>
 						Dari PAN ERA
 						GROUP</p>
 				</div>

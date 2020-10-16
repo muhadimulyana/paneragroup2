@@ -39,6 +39,129 @@
 			display: none;
 		}
 
+		/* .area {
+			background: #f8f9fc;
+			background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
+
+
+		} */
+
+		.circles {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+			z-index: -1;
+		}
+
+		.circles li {
+			position: absolute;
+			display: block;
+			list-style: none;
+			width: 20px;
+			height: 20px;
+			background: rgba(47, 86, 212, 0.1);
+			animation: animate 25s linear infinite;
+			bottom: -150px;
+
+		}
+
+		.circles li:nth-child(1) {
+			left: 25%;
+			width: 80px;
+			height: 80px;
+			animation-delay: 0s;
+		}
+
+
+		.circles li:nth-child(2) {
+			left: 10%;
+			width: 20px;
+			height: 20px;
+			animation-delay: 2s;
+			animation-duration: 12s;
+		}
+
+		.circles li:nth-child(3) {
+			left: 70%;
+			width: 20px;
+			height: 20px;
+			animation-delay: 4s;
+		}
+
+		.circles li:nth-child(4) {
+			left: 40%;
+			width: 60px;
+			height: 60px;
+			animation-delay: 0s;
+			animation-duration: 18s;
+		}
+
+		.circles li:nth-child(5) {
+			left: 65%;
+			width: 20px;
+			height: 20px;
+			animation-delay: 0s;
+		}
+
+		.circles li:nth-child(6) {
+			left: 75%;
+			width: 110px;
+			height: 110px;
+			animation-delay: 3s;
+		}
+
+		.circles li:nth-child(7) {
+			left: 35%;
+			width: 150px;
+			height: 150px;
+			animation-delay: 7s;
+		}
+
+		.circles li:nth-child(8) {
+			left: 50%;
+			width: 25px;
+			height: 25px;
+			animation-delay: 15s;
+			animation-duration: 45s;
+		}
+
+		.circles li:nth-child(9) {
+			left: 20%;
+			width: 15px;
+			height: 15px;
+			animation-delay: 2s;
+			animation-duration: 35s;
+		}
+
+		.circles li:nth-child(10) {
+			left: 85%;
+			width: 150px;
+			height: 150px;
+			animation-delay: 0s;
+			animation-duration: 11s;
+		}
+
+
+
+		@keyframes animate {
+
+			0% {
+				transform: translateY(0) rotate(0deg);
+				opacity: 1;
+				border-radius: 0;
+			}
+
+			100% {
+				transform: translateY(-1000px) rotate(720deg);
+				opacity: 0;
+				border-radius: 50%;
+			}
+
+		}
+
 		@media only screen and (max-width: 700px) {
 			.text-lang {
 				display: inline;
@@ -154,29 +277,23 @@
 
 	<?= $contents; ?>
 
-	<!-- Shape Start -->
-	<div id="wave" class="position-relative" style="margin-top: 50px;">
+	<!-- <div id="wave" class="position-relative" style="margin-top: 50px;">
 		<div class="shape overflow-hidden text-footer">
-			<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-				<path fill="#202942" fill-opacity="1"
-					d="M0,160L60,165.3C120,171,240,181,360,202.7C480,224,600,256,720,277.3C840,299,960,309,1080,298.7C1200,288,1320,256,1380,240L1440,224L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
-				</path>
-			</svg> -->
-			<img src="<?= base_url(); ?>assets/images/wave/wave3.svg" alt="">
+			<img class="img-fluid" src="<?= base_url(); ?>assets/images/wave/waven.svg" alt="">
 		</div>
-	</div>
-	<!--Shape End-->
+	</div> -->
 
 	<!-- Footer Start -->
-	<footer class="footer">
+	<footer class="footer border bg-transparent area">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-4 col-12 mb-0 mb-md-4 pb-0 pb-md-2">
 					<a href="#" class="logo-footer">
-						<img src="<?= base_url(); ?>assets/images/logo/panera-c.png" height="65"
+						<img src="<?= base_url(); ?>assets/images/logo/panera.png" height="75"
 							style="border-radius: 10px;" alt="">
 					</a>
-					<p class="mt-4">Jalan Kapuk Raya No. 88 E, F, G Penjaringan Jakarta Utara DKI Jakarta 14460
+					<p class="mt-4 text-muted">Jalan Kapuk Raya No. 88 E, F, G Penjaringan Jakarta Utara DKI Jakarta
+						14460
 						Indonesia</p>
 					<ul class="list-unstyled social-icon social mb-0 mt-4">
 						<li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
@@ -193,56 +310,64 @@
 				<!--end col-->
 
 				<div class="col-lg-2 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
-					<h4 class="text-light footer-head">Company</h4>
+					<h4 class="text-dark footer-head">Company</h4>
 					<ul class="list-unstyled footer-list mt-4">
-						<li><a href="<?= site_url('profile#company'); ?>" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i>
+						<li><a href="<?= site_url('profile#company'); ?>" class="text-muted"><i
+									class="mdi mdi-chevron-right mr-1"></i>
 								<?= $this->lang->line('qlink_profile'); ?></a></li>
-						<li><a href="<?= site_url('profile#vision'); ?>" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i>
+						<li><a href="<?= site_url('profile#vision'); ?>" class="text-muted"><i
+									class="mdi mdi-chevron-right mr-1"></i>
 								<?= $this->lang->line('qlink_vision'); ?></a></li>
-						<li><a href="<?= site_url('news'); ?>" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i>
+						<li><a href="<?= site_url('news'); ?>" class="text-muted"><i
+									class="mdi mdi-chevron-right mr-1"></i>
 								<?= $this->lang->line('qlink_news'); ?></a></li>
-						<li><a href="<?= site_url('management'); ?>" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i>
+						<li><a href="<?= site_url('management'); ?>" class="text-muted"><i
+									class="mdi mdi-chevron-right mr-1"></i>
 								<?= $this->lang->line('qlink_hr'); ?></a></li>
-						<li><a href="<?= site_url('career'); ?>" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i>
+						<li><a href="<?= site_url('career'); ?>" class="text-muted"><i
+									class="mdi mdi-chevron-right mr-1"></i>
 								<?= $this->lang->line('qlink_career'); ?></a></li>
-						<!-- <li><a href="page-jobs.html" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i>
+						<!-- <li><a href="page-jobs.html" class="text-muted"><i class="mdi mdi-chevron-right mr-1"></i>
 								Careers</a></li>
-						<li><a href="page-blog-grid.html" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i>
+						<li><a href="page-blog-grid.html" class="text-muted"><i class="mdi mdi-chevron-right mr-1"></i>
 								Blog</a></li>
-						<li><a href="auth-cover-login.html" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i>
+						<li><a href="auth-cover-login.html" class="text-muted"><i class="mdi mdi-chevron-right mr-1"></i>
 								Login</a></li> -->
 					</ul>
 				</div>
 				<!--end col-->
 
 				<div class="col-lg-3 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
-					<h4 class="text-light footer-head">Usefull Links</h4>
+					<h4 class="text-dark footer-head">Usefull Links</h4>
 					<ul class="list-unstyled footer-list mt-4">
-						<li><a href="javascript:void" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Terms
+						<li><a href="javascript:void" class="text-muted"><i class="mdi mdi-chevron-right mr-1"></i>
+								Terms
 								of Services</a></li>
-						<li><a href="javascript:void" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i>
+						<li><a href="javascript:void" class="text-muted"><i class="mdi mdi-chevron-right mr-1"></i>
 								Privacy Policy</a></li>
-						<li><a href="javascript:void" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i>
+						<li><a href="javascript:void" class="text-muted"><i class="mdi mdi-chevron-right mr-1"></i>
 								Sitemap</a></li>
-						<!-- <li><a href="changelog.html" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i>
+						<!-- <li><a href="changelog.html" class="text-muted"><i class="mdi mdi-chevron-right mr-1"></i>
 								Changelog</a></li>
-						<li><a href="components.html" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i>
+						<li><a href="components.html" class="text-muted"><i class="mdi mdi-chevron-right mr-1"></i>
 								Components</a></li> -->
 					</ul>
 				</div>
 				<!--end col-->
 
 				<div class="col-lg-3 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
-					<h4 class="text-light footer-head">Subscribe</h4>
-					<p class="mt-4">Sign up and receive the latest news and job opportunities via email.</p>
+					<h4 class="text-dark footer-head">Subscribe</h4>
+					<p class="mt-4 text-muted">Sign up and receive the latest news and job opportunities via email.</p>
 					<form>
 						<div class="row">
 							<div class="col-lg-12">
-								<div class="foot-subscribe form-group position-relative">
-									<label>Write and submit your email <span class="text-danger">*</span></label>
+								<div class="foot-subscribe foot-white form-group position-relative">
+									<label class="text-muted">Write and submit your email <span
+											class="text-danger">*</span></label>
 									<i data-feather="mail" class="fea icon-sm icons"></i>
 									<input type="email" name="email" id="emailsubscribe"
-										class="form-control pl-5 rounded" placeholder="Your email : " required>
+										class="form-control bg-light border pl-5 rounded" placeholder="Your email : "
+										required>
 								</div>
 							</div>
 							<div class="col-lg-12">
@@ -257,21 +382,33 @@
 			<!--end row-->
 		</div>
 		<!--end container-->
+		<ul class="circles">
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
 	</footer>
 	<!--end footer-->
-	<footer class="footer footer-bar">
+	<footer class="footer footer-bar bg-light border">
 		<div class="container text-center">
 			<div class="row align-items-center">
 				<div class="col-sm-9">
 					<div class="text-sm-left">
-						<p class="mb-0">© 2020 PAN ERA Group. All rights reserved.
+						<p class="mb-0 text-muted">© 2020 PAN ERA Group. All rights reserved.
 						</p>
 					</div>
 				</div>
 				<!--end col-->
 
 				<div class="col-sm-3 mt-sm-0 pt-2 pt-sm-0">
-					<p class="mb-0">Crafted with <i class="mdi mdi-heart text-danger"></i> by
+					<p class="mb-0 text-muted">Crafted with <i class="mdi mdi-heart text-danger"></i> by
 						IT Team.
 					</p>
 				</div>
