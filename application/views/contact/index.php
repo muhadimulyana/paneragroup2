@@ -142,7 +142,30 @@
 						dari alamat email di bawah:
 					</p>
 					<p class="text-muted location-time">
-						<span class="text-dark h6">Informasi Umum:</span>
+						<table>
+							<tr>
+								<td><span class="text-dark h6">Informasi Umum&nbsp;&nbsp;</span></td>
+								<td>:</td>
+								<td><a href="mailto:info@paneragroup.com">info@paneragroup.com</a><br></td>
+							</tr>
+							<tr>
+								<td><span class="text-dark h6">Departemen Pembelian Bahan Baku&nbsp;&nbsp;</span></td>
+								<td>:</td>
+								<td><a href="mailto:info@paneragroup.com">purchasing@paneragroup.com</a><br></td>
+							</tr>
+							<tr>
+								<td><span class="text-dark h6">Departemen Pemasaran&nbsp;&nbsp;</span></td>
+								<td>:</td>
+								<td><a href="mailto:info@paneragroup.com">marketing@paneragroup.com</a><br></td>
+							</tr>
+							<tr>
+								<td><span class="text-dark h6">Departemen Sumber
+										Daya Manusia&nbsp;&nbsp;</span></td>
+								<td>:</td>
+								<td><a href="mailto:info@paneragroup.com">hrd@paneragroup.com</a><br></td>
+							</tr>
+						</table>
+						<!-- <span class="text-dark h6">Informasi Umum:</span>
 						<a href="mailto:info@paneragroup.com">info@paneragroup.com</a><br>
 						<span class="text-dark h6">Departemen Pembelian Bahan Baku:</span>
 						<a href="mailto:purchasing@paneragroup.com">purchasing@paneragroup.com</a><br>
@@ -150,7 +173,7 @@
 							href="mailto:marketing@paneragroup.com">marketing@paneragroup.com<br>
 							<span class="text-dark h6">Departemen Sumber
 								Daya Manusia:</span><a href="mailto:hrd@paneragroup.com">
-								hrd@paneragroup.com</a></span>
+								hrd@paneragroup.com</a></span> -->
 					</p>
 					<p class="">Atau tinggalkan pesan dengan mengisi detail di bawah ini:
 					</p>
@@ -168,7 +191,7 @@
 	</div>
 	<!--end container-->
 
-	<div class="container mt-lg-5">
+	<div class="container mt-lg-3">
 		<!-- Forms Start -->
 		<div class="col mt-4 pt-2" id="forms">
 			<div class="component-wrapper rounded shadow">
