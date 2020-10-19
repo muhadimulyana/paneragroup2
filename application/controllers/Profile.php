@@ -14,7 +14,7 @@ class Profile extends CI_Controller {
 	{
 		$lang = $this->lang->line('text_nation');
         $data = [];
-        $data['contents'] = $this->load->view('profile/index', $data, true);
+        $data['contents'] = $this->load->view('profile/index-1', $data, true);
 		$this->load->view('layout/main', $data);
 	}
 }
