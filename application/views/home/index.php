@@ -1,6 +1,13 @@
 <style>
 	.bg-animation-left:after {
-		background: rgba(255, 255, 255, 0.5) !important;
+		background: rgba(255, 255, 255, 0.85) !important;
+		width: 65%;
+	}
+
+	@media only screen and (max-width: 700px) {
+		.bg-animation-left:after {
+			width: 100%;
+		}
 	}
 
 </style>

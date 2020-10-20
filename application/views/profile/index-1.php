@@ -147,7 +147,7 @@
 					<span aria-hidden="true">&times;</span>
 				</button>
 			</div>
-			<div class="modal-body" style="overflow: auto !important; height: auto; max-height: 430px;">
+			<div class="modal-body" id="isiKonten" style="overflow: auto !important; height: auto; max-height: 430px;">
 				<div class="bg-white p-3 rounded box-shadow">
 					<img src="<?= base_url(); ?>assets/images/home/a.jpg" width="100%" class="img-fluid rounded-md mb-3"
 						alt="" id="company">
@@ -212,3 +212,15 @@
 	</div>
 </div>
 <!-- Modal Content End -->
+
+<script>
+	$(function () {
+		$('#LoginForm').on('shown.bs.modal', function () {
+			$("#isiKonten").animate({
+				scrollTop: 0
+			}, "slow");
+			return false;
+		});
+	})
+
+</script>

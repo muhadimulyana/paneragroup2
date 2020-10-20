@@ -39,6 +39,10 @@
 			display: none;
 		}
 
+		/* .bg-animation-left {
+			background: rgba(255, 255, 255, 0.8) !important;
+		} */
+
 		/* .area {
 			background: #f8f9fc;
 			background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
@@ -186,6 +190,8 @@
 			.share-w {
 				display: block !important;
 			}
+
+
 		}
 
 	</style>

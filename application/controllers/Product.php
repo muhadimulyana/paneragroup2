@@ -15,7 +15,7 @@ class Product extends CI_Controller {
 		//$id = isset($_GET['id']) ? $_GET['id'] : 1 ;
 		$lang = $this->lang->line('text_nation');
         $data = [];
-        $data['contents'] = $this->load->view('product/index', $data, true);
+        $data['contents'] = $this->load->view('product/index-1', $data, true);
 		$this->load->view('layout/main', $data);
 	}
 }
