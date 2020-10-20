@@ -44,7 +44,7 @@
 		<div class="row justify-content-center">
 			<div class="col-lg-10">
 				<div class="row">
-					<div class="col-md-2 d-none d-md-block">
+					<!-- <div class="col-md-2 d-none d-md-block">
 						<ul class="list-unstyled text-center sticky-bar social-icon mb-0">
 							<li class="mb-3 h6">Share</li>
 							<li><a href="javascript:void(0)" class="rounded"><i data-feather="facebook"
@@ -56,10 +56,9 @@
 							<li><a href="javascript:void(0)" class="rounded"><i data-feather="linkedin"
 										class="fea icon-sm fea-social"></i></a></li>
 						</ul>
-						<!--end icon-->
-					</div>
+					</div> -->
 
-					<div class="col-md-10">
+					<div class="col-md-12">
 						<!-- <p class="text-muted">This is required when, for example, the final text is not yet available.
 							Dummy text is also known as 'fill text'. It is said that song composers of the past used
 							dummy texts as lyrics when writing melodies in order to have a 'ready-made' text to sing
@@ -116,7 +115,7 @@
 						</div>
 
 						<!-- SOCIAL -->
-						<div class="widget mt-3 share-w" style="display: none;">
+						<!-- <div class="widget mt-3 share-w" style="display: none;">
 							<p class="font-weight-bold">Share: </p>
 							<ul class="list-unstyled social-icon mb-0 ">
 								<li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
@@ -128,9 +127,7 @@
 								<li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
 											data-feather="linkedin" class="fea icon-sm fea-social"></i></a></li>
 							</ul>
-							<!--end icon-->
 						</div>
-						<!-- SOCIAL -->
 
 						<h5 class="mt-4">Comments :</h5>
 
@@ -239,7 +236,6 @@
 											class="form-control pl-5" required=""></textarea>
 									</div>
 								</div>
-								<!--end col-->
 
 								<div class="col-lg-6">
 									<div class="form-group position-relative">
@@ -249,7 +245,6 @@
 											class="form-control pl-5" required="">
 									</div>
 								</div>
-								<!--end col-->
 
 								<div class="col-lg-6">
 									<div class="form-group position-relative">
@@ -259,18 +254,14 @@
 											class="form-control pl-5" required="">
 									</div>
 								</div>
-								<!--end col-->
 
 								<div class="col-md-12">
 									<div class="send">
 										<button type="submit" class="btn btn-primary btn-block">Send Message</button>
 									</div>
 								</div>
-								<!--end col-->
 							</div>
-							<!--end row-->
-						</form>
-						<!--end form-->
+						</form> -->
 					</div>
 				</div>
 			</div>
