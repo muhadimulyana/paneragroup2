@@ -42,7 +42,7 @@
 			<div class="col-12 text-center">
 				<div class="section-title mb-4 pb-2">
 					<h4 class="title mb-4 text-dark">Profil Perusahaan</h4>
-					<p class="text-dark para-desc mx-auto mb-0">Pengenalan profil perusahaan, vis & misi, serta
+					<p class="text-dark para-desc mx-auto mb-0">Pengenalan profil perusahaan, visi & misi, serta
 						perusahaan - perusahaan yang tergabung dalam
 						PAN ERA Group</p>
 				</div>

@@ -102,7 +102,7 @@
 						</div>
 						<div class="content mt-3">
 							<h4 class="title font-weight-bold">Website</h4>
-							<p class="text-muted">Kunjungin website kami yang <br>selalu online 7x24 Jam</p>
+							<p class="text-muted">Kunjungi website kami yang <br>selalu online 7x24 Jam</p>
 							<a href="<?= site_url(); ?>" class="h6 text-primary">View website</a>
 						</div>
 					</div>
@@ -183,7 +183,7 @@
 			<!--end col-->
 
 			<div class="col-lg-5 col-md-6 order-1 order-md-2">
-				<img src="<?= base_url(); ?>assets/images/contact/inbox-cleanup.svg" alt="">
+				<img src="<?= base_url(); ?>assets/images/contact/envelope.svg" alt="">
 			</div>
 			<!--end col-->
 		</div>
