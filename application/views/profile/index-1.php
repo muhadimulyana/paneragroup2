@@ -61,7 +61,7 @@
 						<h5 class="mt-3 title">Profil Kami</h5>
 						<p class="text-muted mb-0">Dummy text is text that is used in the publishing</p>
 						<a href="#" data-toggle="modal" data-target="#LoginForm"
-							class="btn btn-pills btn-sm btn-soft-danger mt-md-3"> Selengkapnya </a>
+							class="btn btn-pills btn-sm btn-soft-danger mt-3"> Selengkapnya </a>
 					</div>
 				</div>
 			</div>
@@ -77,7 +77,7 @@
 						<h5 class="mt-3 title">Visi Kami</h5>
 						<p class="text-muted mb-0">Dummy text is text that is used in the publishing</p>
 						<a href="#" data-toggle="modal" data-target="#LoginForm"
-							class="btn btn-pills btn-sm btn-soft-warning mt-md-3"> Selengkapnya </a>
+							class="btn btn-pills btn-sm btn-soft-warning mt-3"> Selengkapnya </a>
 					</div>
 				</div>
 			</div>
@@ -92,7 +92,7 @@
 						<h5 class="mt-3 title">Misi Kami</h5>
 						<p class="text-muted mb-0">Dummy text is text that is used in the publishing</p>
 						<a href="#" data-toggle="modal" data-target="#LoginForm"
-							class="btn btn-pills btn-sm btn-soft-danger mt-md-3"> Selengkapnya </a>
+							class="btn btn-pills btn-sm btn-soft-danger mt-3"> Selengkapnya </a>
 					</div>
 				</div>
 			</div>
@@ -107,7 +107,7 @@
 						<h5 class="mt-3 title">PT. Elite Recycling Indonesia</h5>
 						<p class="text-muted mb-0">Dummy text is text that is used in the publishing</p>
 						<a href="#" data-toggle="modal" data-target="#LoginForm"
-							class="btn btn-pills btn-sm btn-soft-success mt-md-3"> Selengkapnya </a>
+							class="btn btn-pills btn-sm btn-soft-success mt-3"> Selengkapnya </a>
 					</div>
 				</div>
 			</div>
@@ -122,7 +122,7 @@
 						<h5 class="mt-3 title">PT. Elastis Reka Aktif</h5>
 						<p class="text-muted mb-0">Dummy text is text that is used in the publishing</p>
 						<a href="#" data-toggle="modal" data-target="#LoginForm"
-							class="btn btn-pills btn-sm btn-soft-danger mt-md-3"> Selengkapnya </a>
+							class="btn btn-pills btn-sm btn-soft-danger mt-3"> Selengkapnya </a>
 					</div>
 				</div>
 			</div>

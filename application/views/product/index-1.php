@@ -88,7 +88,7 @@
 				</div>
 			</div>
 			<!--end col-->
-			<div class="col-md-12 justify-content-center text-center mt-lg-5">
+			<div class="col-md-12 justify-content-center text-center mt-5">
 				<a href="http://loco.co.id" class="btn btn-soft-primary btn-pills">Selengkapnya <i
 						data-feather="arrow-right" class="fea icon-sm"> </i></a>
 			</div>
