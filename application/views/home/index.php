@@ -261,22 +261,13 @@
 
 							</a></h5>
 						<div class="post-meta d-flex justify-content-between mt-3">
-							<ul class="list-unstyled mb-0">
-								<li class="list-inline-item mr-2 mb-0"><a href="javascript:void(0)"
-										class="text-muted like"><i class="mdi mdi-heart-outline mr-1"></i>33</a>
-								</li>
-								<li class="list-inline-item"><a href="javascript:void(0)" class="text-muted comments"><i
-											class="mdi mdi-comment-outline mr-1"></i>08</a>
-								</li>
-							</ul>
 							<a href="<?= base_url('news/detail'); ?>" class="text-muted readmore">Read More <i
 									class="mdi mdi-chevron-right"></i></a>
 						</div>
 					</div>
 					<div class="author">
 						<small class="text-light user d-block"><i class="mdi mdi-account"></i> Muhamad Adi</small>
-						<small class="text-light date"><i class="mdi mdi-calendar-check"></i> 30th June 2020,
-							2019</small>
+						<small class="text-light date"><i class="mdi mdi-calendar-check"></i> 30th June 2020</small>
 					</div>
 				</div>
 			</div>
@@ -293,22 +284,13 @@
 						<h5><a href="javascript:void(0)" class="card-title title text-dark">Family Gathering di PT
 								Elite Recycling Indonesia</a></h5>
 						<div class="post-meta d-flex justify-content-between mt-3">
-							<ul class="list-unstyled mb-0">
-								<li class="list-inline-item mr-2 mb-0"><a href="javascript:void(0)"
-										class="text-muted like"><i class="mdi mdi-heart-outline mr-1"></i>33</a>
-								</li>
-								<li class="list-inline-item"><a href="javascript:void(0)" class="text-muted comments"><i
-											class="mdi mdi-comment-outline mr-1"></i>08</a>
-								</li>
-							</ul>
 							<a href="<?= base_url('news/detail'); ?>" class="text-muted readmore">Read More <i
 									class="mdi mdi-chevron-right"></i></a>
 						</div>
 					</div>
 					<div class="author">
 						<small class="text-light user d-block"><i class="mdi mdi-account"></i> Muhamad Adi</small>
-						<small class="text-light date"><i class="mdi mdi-calendar-check"></i> 30th June 2020,
-							2019</small>
+						<small class="text-light date"><i class="mdi mdi-calendar-check"></i> 30th June 2020</small>
 					</div>
 				</div>
 			</div>
@@ -328,22 +310,13 @@
 								Group
 							</a></h5>
 						<div class="post-meta d-flex justify-content-between mt-3">
-							<ul class="list-unstyled mb-0">
-								<li class="list-inline-item mr-2 mb-0"><a href="javascript:void(0)"
-										class="text-muted like"><i class="mdi mdi-heart-outline mr-1"></i>33</a>
-								</li>
-								<li class="list-inline-item"><a href="javascript:void(0)" class="text-muted comments"><i
-											class="mdi mdi-comment-outline mr-1"></i>08</a>
-								</li>
-							</ul>
 							<a href="<?= base_url('news/detail'); ?>" class="text-muted readmore">Read More <i
 									class="mdi mdi-chevron-right"></i></a>
 						</div>
 					</div>
 					<div class="author">
 						<small class="text-light user d-block"><i class="mdi mdi-account"></i> Muhamad Adi</small>
-						<small class="text-light date"><i class="mdi mdi-calendar-check"></i> 30th June 2020,
-							2019</small>
+						<small class="text-light date"><i class="mdi mdi-calendar-check"></i> 30th June 2020</small>
 					</div>
 				</div>
 			</div>
