@@ -61,8 +61,8 @@
 						<h5 class="mt-3 title">Profil Kami</h5>
 						<p class="text-muted mb-0">Pengenalan profil perusahaan dan sejarah dibentuknya Pan Era Group
 						</p>
-						<a href="#" data-toggle="modal" data-target="#LoginForm"
-							class="btn btn-pills btn-sm btn-soft-danger mt-3"> Selengkapnya </a>
+						<a href="<?= site_url('profile/company'); ?>" class="btn btn-pills btn-sm btn-soft-danger mt-3">
+							Selengkapnya </a>
 					</div>
 				</div>
 			</div>
@@ -75,28 +75,28 @@
 							<img src="<?= base_url(); ?>assets/images/profile/creative-idea.png" class="img-fluid"
 								alt="">
 						</div>
-						<h5 class="mt-3 title">Visi Kami</h5>
-						<p class="text-muted mb-0">Pengenalan gambaran besar mengenai visi, dan tujuan perusahaan</p>
-						<a href="#" data-toggle="modal" data-target="#LoginForm"
-							class="btn btn-pills btn-sm btn-soft-warning mt-3"> Selengkapnya </a>
+						<h5 class="mt-3 title">Visi & Misi Kami</h5>
+						<p class="text-muted mb-0">Pengenalan gambaran besar mengenai visi, misi, dan tujuan perusahaan
+						</p>
+						<a href="<?= site_url('profile/visi'); ?>" class="btn btn-pills btn-sm btn-soft-warning mt-3">
+							Selengkapnya </a>
 					</div>
 				</div>
 			</div>
 			<!--end col-->
-			<div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+			<!-- <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
 				<div class="card explore-feature border-0 rounded text-center bg-white shadow">
 					<div class="card-body">
 						<div class="icon rounded-circle shadow-lg d-inline-block">
-							<!-- <i data-feather="pen-tool" class="fea"></i> -->
 							<img src="<?= base_url(); ?>assets/images/profile/target.png" class="img-fluid" alt="">
 						</div>
 						<h5 class="mt-3 title">Misi Kami</h5>
 						<p class="text-muted mb-0">Pengenalan misi perusahaan yang diorientasikan pada masa kini</p>
-						<a href="#" data-toggle="modal" data-target="#LoginForm"
+						<a href="<?= site_url('profile/company'); ?>"
 							class="btn btn-pills btn-sm btn-soft-danger mt-3"> Selengkapnya </a>
 					</div>
 				</div>
-			</div>
+			</div> -->
 			<!--end col-->
 			<div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
 				<div class="card explore-feature border-0 rounded text-center bg-white shadow">
@@ -107,8 +107,8 @@
 						</div>
 						<h5 class="mt-3 title">PT. Elastis Reka Aktif</h5>
 						<p class="text-muted mb-0">Pengenalan perusahaan kami yang menjadi bagian dari Pan Era Group</p>
-						<a href="#" data-toggle="modal" data-target="#LoginForm"
-							class="btn btn-pills btn-sm btn-soft-danger mt-3"> Selengkapnya </a>
+						<a href="<?= site_url('profile/era'); ?>" class="btn btn-pills btn-sm btn-soft-danger mt-3">
+							Selengkapnya </a>
 					</div>
 				</div>
 			</div>
@@ -122,8 +122,8 @@
 						</div>
 						<h5 class="mt-3 title">PT. Elite Recycling Indonesia</h5>
 						<p class="text-muted mb-0">Pengenalan perusahaan kami yang menjadi bagian dari Pan Era Group</p>
-						<a href="#" data-toggle="modal" data-target="#LoginForm"
-							class="btn btn-pills btn-sm btn-soft-success mt-3"> Selengkapnya </a>
+						<a href="<?= site_url('profile/eri'); ?>" class="btn btn-pills btn-sm btn-soft-success mt-3">
+							Selengkapnya </a>
 					</div>
 				</div>
 			</div>
