@@ -59,7 +59,8 @@
 							<img src="<?= base_url(); ?>assets/images/profile/building.svg" class="img-fluid" alt="">
 						</div>
 						<h5 class="mt-3 title">Profil Kami</h5>
-						<p class="text-muted mb-0">Dummy text is text that is used in the publishing</p>
+						<p class="text-muted mb-0">Pengenalan profil perusahaan dan sejarah dibentuknya Pan Era Group
+						</p>
 						<a href="#" data-toggle="modal" data-target="#LoginForm"
 							class="btn btn-pills btn-sm btn-soft-danger mt-3"> Selengkapnya </a>
 					</div>
@@ -75,7 +76,7 @@
 								alt="">
 						</div>
 						<h5 class="mt-3 title">Visi Kami</h5>
-						<p class="text-muted mb-0">Dummy text is text that is used in the publishing</p>
+						<p class="text-muted mb-0">Pengenalan gambaran besar mengenai visi, dan tujuan perusahaan</p>
 						<a href="#" data-toggle="modal" data-target="#LoginForm"
 							class="btn btn-pills btn-sm btn-soft-warning mt-3"> Selengkapnya </a>
 					</div>
@@ -90,7 +91,22 @@
 							<img src="<?= base_url(); ?>assets/images/profile/target.png" class="img-fluid" alt="">
 						</div>
 						<h5 class="mt-3 title">Misi Kami</h5>
-						<p class="text-muted mb-0">Dummy text is text that is used in the publishing</p>
+						<p class="text-muted mb-0">Pengenalan misi perusahaan yang diorientasikan pada masa kini</p>
+						<a href="#" data-toggle="modal" data-target="#LoginForm"
+							class="btn btn-pills btn-sm btn-soft-danger mt-3"> Selengkapnya </a>
+					</div>
+				</div>
+			</div>
+			<!--end col-->
+			<div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+				<div class="card explore-feature border-0 rounded text-center bg-white shadow">
+					<div class="card-body">
+						<div class="icon rounded-circle shadow-lg d-inline-block">
+							<!-- <i data-feather="pen-tool" class="fea"></i> -->
+							<img src="<?= base_url(); ?>assets/images/profile/era-icon.png" class="img-fluid" alt="">
+						</div>
+						<h5 class="mt-3 title">PT. Elastis Reka Aktif</h5>
+						<p class="text-muted mb-0">Pengenalan perusahaan kami yang menjadi bagian dari Pan Era Group</p>
 						<a href="#" data-toggle="modal" data-target="#LoginForm"
 							class="btn btn-pills btn-sm btn-soft-danger mt-3"> Selengkapnya </a>
 					</div>
@@ -105,29 +121,13 @@
 							<img src="<?= base_url(); ?>assets/images/profile/eri-icon.png" class="img-fluid" alt="">
 						</div>
 						<h5 class="mt-3 title">PT. Elite Recycling Indonesia</h5>
-						<p class="text-muted mb-0">Dummy text is text that is used in the publishing</p>
+						<p class="text-muted mb-0">Pengenalan perusahaan kami yang menjadi bagian dari Pan Era Group</p>
 						<a href="#" data-toggle="modal" data-target="#LoginForm"
 							class="btn btn-pills btn-sm btn-soft-success mt-3"> Selengkapnya </a>
 					</div>
 				</div>
 			</div>
 			<!--end col-->
-			<div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
-				<div class="card explore-feature border-0 rounded text-center bg-white shadow">
-					<div class="card-body">
-						<div class="icon rounded-circle shadow-lg d-inline-block">
-							<!-- <i data-feather="pen-tool" class="fea"></i> -->
-							<img src="<?= base_url(); ?>assets/images/profile/era-icon.png" class="img-fluid" alt="">
-						</div>
-						<h5 class="mt-3 title">PT. Elastis Reka Aktif</h5>
-						<p class="text-muted mb-0">Dummy text is text that is used in the publishing</p>
-						<a href="#" data-toggle="modal" data-target="#LoginForm"
-							class="btn btn-pills btn-sm btn-soft-danger mt-3"> Selengkapnya </a>
-					</div>
-				</div>
-			</div>
-			<!--end col-->
-
 		</div>
 		<!--end row-->
 	</div>
