@@ -4,12 +4,13 @@
 		<div class="row justify-content-center">
 			<div class="col-lg-12 text-center">
 				<div class="page-next-level">
-					<img src="<?= base_url(); ?>assets/images/logo/eri.png" class="avatar avatar-medium" alt="">
-					<h4 class="title mt-4 mb-3"> Back-end Developer </h4>
-					<p class="para-desc mx-auto text-muted">PT. Elite Recycling Indonesia</p>
+					<img src="<?= base_url(); ?>assets/images/profile/era-icon.png" class="avatar avatar-medium" alt="">
+					<h4 class="title mt-4 mb-3"> HSE Staff </h4>
+					<p class="para-desc mx-auto text-muted">PT. Elastis Reka Aktif</p>
 					<ul class="list-unstyled">
 						<li class="list-inline-item text-primary mr-3"><i
-								class="mdi mdi-map-marker text-warning mr-2"></i>Cikarang, Jawa Barat, Indonesia</li>
+								class="mdi mdi-map-marker text-warning mr-2"></i>Penjaringan, Jakarta Utara, Indonesia
+						</li>
 						<!-- <li class="list-inline-item text-primary"><i
 								class="mdi mdi-office-building text-warning mr-2"></i>Gradle</li> -->
 					</ul>
@@ -67,7 +68,7 @@
 							<i data-feather="map-pin" class="fea icon-ex-md mr-3"></i>
 							<div class="media-body">
 								<h4 class="widget-title mb-0">Location:</h4>
-								<p class="text-primary mb-0">Cikarang, Jawa Barat, Indonesia</p>
+								<p class="text-primary mb-0">Penjaringan, Jakarta Utara, Indonesia</p>
 							</div>
 						</div>
 
@@ -75,7 +76,7 @@
 							<i data-feather="monitor" class="fea icon-ex-md mr-3"></i>
 							<div class="media-body">
 								<h4 class="widget-title mb-0">Job Type:</h4>
-								<p class="text-primary mb-0">Back-end Developer</p>
+								<p class="text-primary mb-0">HSE Staff</p>
 							</div>
 						</div>
 
@@ -83,7 +84,7 @@
 							<i data-feather="briefcase" class="fea icon-ex-md mr-3"></i>
 							<div class="media-body">
 								<h4 class="widget-title mb-0">Experience:</h4>
-								<p class="text-primary mb-0">+2 Year</p>
+								<p class="text-primary mb-0">+3 Years</p>
 							</div>
 						</div>
 
@@ -118,68 +119,64 @@
 
 			<div class="col-lg-8 col-md-7 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
 				<div class="ml-lg-4">
-					<h5>Job Description: </h5>
-					<p class="text-muted">One disadvantage of Lorum Ipsum is that in Latin certain letters appear more
-						frequently than others - which creates a distinct visual impression. Moreover, in Latin only
-						words at the beginning of sentences are capitalized.</p>
-					<p class="text-muted">This means that Lorem Ipsum cannot accurately represent, for example, German,
-						in which all nouns are capitalized. Thus, Lorem Ipsum has only limited suitability as a visual
-						filler for German texts. If the fill text is intended to illustrate the characteristics of
-						different typefaces.</p>
-					<p class="text-muted">It sometimes makes sense to select texts containing the various letters and
-						symbols specific to the output language.</p>
 
-					<h5 class="mt-4">Responsibilities and Duties: </h5>
-					<p class="text-muted">It sometimes makes sense to select texts containing the various letters and
-						symbols specific to the output language.</p>
+					<h5 class="mt-4">Job Description: </h5>
 					<ul class="list-unstyled">
 						<li class="text-muted"><i data-feather="arrow-right"
-								class="fea icon-sm text-success mr-2"></i>Participate in requirements analysis</li>
+								class="fea icon-sm text-success mr-2"></i>Menangani dan memantau sistem lingkungan,
+							keselamatan dan kesehatan kerja yang
+							efektif.
+						</li>
 						<li class="text-muted"><i data-feather="arrow-right"
-								class="fea icon-sm text-success mr-2"></i>Write clean, scalable code using C# and .NET
-							frameworks</li>
+								class="fea icon-sm text-success mr-2"></i>Memelihara informasi terdokumentasi terkait
+							penerapan sistem K3L.
+						</li>
 						<li class="text-muted"><i data-feather="arrow-right"
-								class="fea icon-sm text-success mr-2"></i>Test and deploy applications and systems</li>
+								class="fea icon-sm text-success mr-2"></i>Memastikan sumber daya untuk penerapan sistem
+							K3L tercukupi dan dapat berfungsi dengan baik.
+						</li>
 						<li class="text-muted"><i data-feather="arrow-right"
-								class="fea icon-sm text-success mr-2"></i>Revise, update, refactor and debug code</li>
+								class="fea icon-sm text-success mr-2"></i>Melakukan pembaruan hasil identifikasi bahaya,
+							resiko keselamatan, aspek dan dampak lingkungan secara periodik.
+						</li>
 						<li class="text-muted"><i data-feather="arrow-right"
-								class="fea icon-sm text-success mr-2"></i>Improve existing software</li>
-						<li class="text-muted"><i data-feather="arrow-right"
-								class="fea icon-sm text-success mr-2"></i>Develop documentation throughout the software
-							development life cycle (SDLC)</li>
-						<li class="text-muted"><i data-feather="arrow-right"
-								class="fea icon-sm text-success mr-2"></i>Serve as an expert on applications and provide
-							technical support</li>
+								class="fea icon-sm text-success mr-2"></i>Berkoordinasi dengan departemen lain untuk
+							menginformasikan isu-isu terkait penerapan sistem K3L.
+						</li>
 					</ul>
 
-					<h5 class="mt-4">Required Experience, Skills and Qualifications: </h5>
-					<p class="text-muted">It sometimes makes sense to select texts containing the various letters and
-						symbols specific to the output language.</p>
+					<h5 class="mt-4">Requirements & Spesifications: </h5>
 					<ul class="list-unstyled">
-						<li class="text-muted"><i data-feather="arrow-right"
-								class="fea icon-sm text-success mr-2"></i>Proven experience as a .NET Developer or
-							Application Developer</li>
-						<li class="text-muted"><i data-feather="arrow-right"
-								class="fea icon-sm text-success mr-2"></i>good understanding of SQL and Relational
-							Databases, specifically Microsoft SQL Server.</li>
-						<li class="text-muted"><i data-feather="arrow-right"
-								class="fea icon-sm text-success mr-2"></i>Experience designing, developing and creating
-							RESTful web services and APIs</li>
-						<li class="text-muted"><i data-feather="arrow-right"
-								class="fea icon-sm text-success mr-2"></i>Basic know how of Agile process and practices
+						<li class="text-muted"><i data-feather="check-circle"
+								class="fea icon-sm text-success mr-2"></i>Usia maksimal 33 tahun.
 						</li>
-						<li class="text-muted"><i data-feather="arrow-right"
-								class="fea icon-sm text-success mr-2"></i>Good understanding of object-oriented
-							programming.</li>
-						<li class="text-muted"><i data-feather="arrow-right"
-								class="fea icon-sm text-success mr-2"></i>Good understanding of concurrent programming.
+						<li class="text-muted"><i data-feather="check-circle"
+								class="fea icon-sm text-success mr-2"></i>Pendidikan minimal D3 atau S1 (dari jurusan
+							Teknik)
 						</li>
-						<li class="text-muted"><i data-feather="arrow-right"
-								class="fea icon-sm text-success mr-2"></i>Sound knowledge of application architecture
-							and design.</li>
-						<li class="text-muted"><i data-feather="arrow-right"
-								class="fea icon-sm text-success mr-2"></i>Excellent problem solving and analytical
-							skills</li>
+						<li class="text-muted"><i data-feather="check-circle"
+								class="fea icon-sm text-success mr-2"></i>Memiliki pengalaman dan paham QMS ISO 9001,
+							ISO 14001 dan SMK3.
+						</li>
+						<li class="text-muted"><i data-feather="check-circle"
+								class="fea icon-sm text-success mr-2"></i>Memiliki sertifikasi pelatihan Ahli K3 Umum
+							menjadi nilai tambah.
+						</li>
+						<li class="text-muted"><i data-feather="check-circle"
+								class="fea icon-sm text-success mr-2"></i>Mampu menganalisa masalah dengan teknik
+							problem solving dan 7 alat pengendali kualitas.
+						</li>
+						<li class="text-muted"><i data-feather="check-circle"
+								class="fea icon-sm text-success mr-2"></i>Berpengalaman minimal 3 tahun sebagai HSE
+							Staff.
+
+						</li>
+						<li class="text-muted"><i data-feather="check-circle"
+								class="fea icon-sm text-success mr-2"></i>Bersedia dinas ke luar kota.
+						</li>
+						<li class="text-muted"><i data-feather="check-circle"
+								class="fea icon-sm text-success mr-2"></i>Penempatan di daerah Kapuk, Jakarta Utara.
+						</li>
 					</ul>
 
 					<div class="mt-4">
