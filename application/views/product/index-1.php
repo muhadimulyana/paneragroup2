@@ -66,8 +66,8 @@
 							<h5 class="mb-0"><a href="javascript:void" class="text-dark title">Biji Plastik Daur
 									Ulang</a>
 							</h5>
-							<h6 class="text-muted tag mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-								do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h6>
+							<h6 class="text-muted tag mb-0">Kami memproduksi dan memasarkan biji plastik yang berasal
+								dari hasil daur ulang limbah plastik.</h6>
 						</div>
 					</div>
 				</div>
@@ -81,15 +81,15 @@
 						<div class="content pt-3">
 							<h5 class="mb-0"><a href="javascript:void" class="text-dark title">Kantong Plastik</a>
 							</h5>
-							<h6 class="text-muted tag mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-								do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h6>
+							<h6 class="text-muted tag mb-0">Kantong Plastik LOCO adalah merek dagang milik Pan Era Group
+								untuk produk kantong plastik.</h6>
 						</div>
 					</div>
 				</div>
 			</div>
 			<!--end col-->
 			<div class="col-md-12 justify-content-center text-center mt-5">
-				<a href="http://loco.co.id" class="btn btn-soft-primary btn-pills">Selengkapnya <i
+				<a href="http://loco.co.id:1100" class="btn btn-soft-primary btn-pills">Selengkapnya <i
 						data-feather="arrow-right" class="fea icon-sm"> </i></a>
 			</div>
 		</div>
