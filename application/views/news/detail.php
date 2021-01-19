@@ -66,9 +66,9 @@
 
 						<ul class="list-unstyled d-flex justify-content-between mt-4">
 							<li class="list-inline-item user mr-2"><a href="javascript:void(0)" class="text-muted"><i
-										class="mdi mdi-account text-dark"></i> Calvin Carlo</a></li>
+										class="mdi mdi-account text-dark"></i> Muhamad Adi Mulyana</a></li>
 							<li class="list-inline-item date text-muted"><i
-									class="mdi mdi-calendar-check text-dark"></i> 13th August, 2019</li>
+									class="mdi mdi-calendar-check text-dark"></i> 13th June, 2020</li>
 						</ul>
 
 						<img src="<?= base_url(); ?>assets/images/news/2.jpeg" class="img-fluid rounded-md shadow"
@@ -104,15 +104,6 @@
 							eleifend donec pretium vulputate. Dolor sit amet consectetur adipiscing elit duis tristique.
 
 						</p>
-
-						<div class="post-meta mt-3">
-							<ul class="list-unstyled mb-0">
-								<li class="list-inline-item mr-2"><a href="javascript:void(0)" class=" like"><i
-											class="mdi mdi-heart-outline mr-1"></i>33</a></li>
-								<li class="list-inline-item"><a href="javascript:void(0)" class="text-muted comments"><i
-											class="mdi mdi-comment-outline mr-1"></i>08</a></li>
-							</ul>
-						</div>
 
 						<!-- SOCIAL -->
 						<!-- <div class="widget mt-3 share-w" style="display: none;">

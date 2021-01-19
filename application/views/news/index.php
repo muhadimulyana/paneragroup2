@@ -59,15 +59,6 @@
 
 									</a></h5>
 								<div class="post-meta d-flex justify-content-between mt-3">
-									<ul class="list-unstyled mb-0">
-										<li class="list-inline-item mr-2 mb-0"><a href="javascript:void(0)"
-												class="text-muted like"><i class="mdi mdi-heart-outline mr-1"></i>33</a>
-										</li>
-										<li class="list-inline-item"><a href="javascript:void(0)"
-												class="text-muted comments"><i
-													class="mdi mdi-comment-outline mr-1"></i>08</a>
-										</li>
-									</ul>
 									<a href="<?= base_url('news/detail'); ?>" class="text-muted readmore">Read More <i
 											class="mdi mdi-chevron-right"></i></a>
 								</div>
@@ -95,15 +86,6 @@
 
 									</a></h5>
 								<div class="post-meta d-flex justify-content-between mt-3">
-									<ul class="list-unstyled mb-0">
-										<li class="list-inline-item mr-2 mb-0"><a href="javascript:void(0)"
-												class="text-muted like"><i class="mdi mdi-heart-outline mr-1"></i>33</a>
-										</li>
-										<li class="list-inline-item"><a href="javascript:void(0)"
-												class="text-muted comments"><i
-													class="mdi mdi-comment-outline mr-1"></i>08</a>
-										</li>
-									</ul>
 									<a href="<?= base_url('news/detail'); ?>" class="text-muted readmore">Read More <i
 											class="mdi mdi-chevron-right"></i></a>
 								</div>
@@ -131,15 +113,6 @@
 
 									</a></h5>
 								<div class="post-meta d-flex justify-content-between mt-3">
-									<ul class="list-unstyled mb-0">
-										<li class="list-inline-item mr-2 mb-0"><a href="javascript:void(0)"
-												class="text-muted like"><i class="mdi mdi-heart-outline mr-1"></i>33</a>
-										</li>
-										<li class="list-inline-item"><a href="javascript:void(0)"
-												class="text-muted comments"><i
-													class="mdi mdi-comment-outline mr-1"></i>08</a>
-										</li>
-									</ul>
 									<a href="<?= base_url('news/detail'); ?>" class="text-muted readmore">Read More <i
 											class="mdi mdi-chevron-right"></i></a>
 								</div>
@@ -167,15 +140,6 @@
 
 									</a></h5>
 								<div class="post-meta d-flex justify-content-between mt-3">
-									<ul class="list-unstyled mb-0">
-										<li class="list-inline-item mr-2 mb-0"><a href="javascript:void(0)"
-												class="text-muted like"><i class="mdi mdi-heart-outline mr-1"></i>33</a>
-										</li>
-										<li class="list-inline-item"><a href="javascript:void(0)"
-												class="text-muted comments"><i
-													class="mdi mdi-comment-outline mr-1"></i>08</a>
-										</li>
-									</ul>
 									<a href="<?= base_url('news/detail'); ?>" class="text-muted readmore">Read More <i
 											class="mdi mdi-chevron-right"></i></a>
 								</div>
@@ -203,15 +167,6 @@
 
 									</a></h5>
 								<div class="post-meta d-flex justify-content-between mt-3">
-									<ul class="list-unstyled mb-0">
-										<li class="list-inline-item mr-2 mb-0"><a href="javascript:void(0)"
-												class="text-muted like"><i class="mdi mdi-heart-outline mr-1"></i>33</a>
-										</li>
-										<li class="list-inline-item"><a href="javascript:void(0)"
-												class="text-muted comments"><i
-													class="mdi mdi-comment-outline mr-1"></i>08</a>
-										</li>
-									</ul>
 									<a href="<?= base_url('news/detail'); ?>" class="text-muted readmore">Read More <i
 											class="mdi mdi-chevron-right"></i></a>
 								</div>
@@ -239,15 +194,6 @@
 
 									</a></h5>
 								<div class="post-meta d-flex justify-content-between mt-3">
-									<ul class="list-unstyled mb-0">
-										<li class="list-inline-item mr-2 mb-0"><a href="javascript:void(0)"
-												class="text-muted like"><i class="mdi mdi-heart-outline mr-1"></i>33</a>
-										</li>
-										<li class="list-inline-item"><a href="javascript:void(0)"
-												class="text-muted comments"><i
-													class="mdi mdi-comment-outline mr-1"></i>08</a>
-										</li>
-									</ul>
 									<a href="<?= base_url('news/detail'); ?>" class="text-muted readmore">Read More <i
 											class="mdi mdi-chevron-right"></i></a>
 								</div>
@@ -275,15 +221,6 @@
 
 									</a></h5>
 								<div class="post-meta d-flex justify-content-between mt-3">
-									<ul class="list-unstyled mb-0">
-										<li class="list-inline-item mr-2 mb-0"><a href="javascript:void(0)"
-												class="text-muted like"><i class="mdi mdi-heart-outline mr-1"></i>33</a>
-										</li>
-										<li class="list-inline-item"><a href="javascript:void(0)"
-												class="text-muted comments"><i
-													class="mdi mdi-comment-outline mr-1"></i>08</a>
-										</li>
-									</ul>
 									<a href="<?= base_url('news/detail'); ?>" class="text-muted readmore">Read More <i
 											class="mdi mdi-chevron-right"></i></a>
 								</div>
@@ -311,15 +248,6 @@
 
 									</a></h5>
 								<div class="post-meta d-flex justify-content-between mt-3">
-									<ul class="list-unstyled mb-0">
-										<li class="list-inline-item mr-2 mb-0"><a href="javascript:void(0)"
-												class="text-muted like"><i class="mdi mdi-heart-outline mr-1"></i>33</a>
-										</li>
-										<li class="list-inline-item"><a href="javascript:void(0)"
-												class="text-muted comments"><i
-													class="mdi mdi-comment-outline mr-1"></i>08</a>
-										</li>
-									</ul>
 									<a href="<?= base_url('news/detail'); ?>" class="text-muted readmore">Read More <i
 											class="mdi mdi-chevron-right"></i></a>
 								</div>
@@ -347,15 +275,6 @@
 
 									</a></h5>
 								<div class="post-meta d-flex justify-content-between mt-3">
-									<ul class="list-unstyled mb-0">
-										<li class="list-inline-item mr-2 mb-0"><a href="javascript:void(0)"
-												class="text-muted like"><i class="mdi mdi-heart-outline mr-1"></i>33</a>
-										</li>
-										<li class="list-inline-item"><a href="javascript:void(0)"
-												class="text-muted comments"><i
-													class="mdi mdi-comment-outline mr-1"></i>08</a>
-										</li>
-									</ul>
 									<a href="<?= base_url('news/detail'); ?>" class="text-muted readmore">Read More <i
 											class="mdi mdi-chevron-right"></i></a>
 								</div>
@@ -383,15 +302,6 @@
 
 									</a></h5>
 								<div class="post-meta d-flex justify-content-between mt-3">
-									<ul class="list-unstyled mb-0">
-										<li class="list-inline-item mr-2 mb-0"><a href="javascript:void(0)"
-												class="text-muted like"><i class="mdi mdi-heart-outline mr-1"></i>33</a>
-										</li>
-										<li class="list-inline-item"><a href="javascript:void(0)"
-												class="text-muted comments"><i
-													class="mdi mdi-comment-outline mr-1"></i>08</a>
-										</li>
-									</ul>
 									<a href="<?= base_url('news/detail'); ?>" class="text-muted readmore">Read More <i
 											class="mdi mdi-chevron-right"></i></a>
 								</div>
@@ -444,17 +354,6 @@
 						</div>
 						<!-- SEARCH -->
 
-						<!-- CATAGORIES -->
-						<div class="widget mb-4 pb-2">
-							<h4 class="widget-title">Catagories</h4>
-							<ul class="list-unstyled mt-4 mb-0 blog-catagories">
-								<li><a href="jvascript:void(0)">Business</a> <span class="float-right">09</span></li>
-								<li><a href="jvascript:void(0)">Corporate</a> <span class="float-right">20</span></li>
-								<li><a href="jvascript:void(0)">Investment</a> <span class="float-right">22</span></li>
-							</ul>
-						</div>
-						<!-- CATAGORIES -->
-
 						<!-- RECENT POST -->
 						<div class="widget mb-4 pb-2">
 							<h4 class="widget-title">Recent Post</h4>
@@ -469,16 +368,16 @@
 											style="background-image: url('<?= base_url(); ?>assets/images/news/1.jpg'); background-size: cover; min-width: 100%; width: 100px; height: 50px; display: block;">
 										</a>
 									</div>
-									<div class="post-recent-content float-left"><a href="jvascript:void(0)">Consultant
-											Business</a><span class="text-muted mt-2">15th June, 2019</span></div>
+									<div class="post-recent-content float-left"><a href="jvascript:void(0)">Family
+											Gathering</a><span class="text-muted mt-2">15th June, 2020</span></div>
 								</div>
 								<div class="clearfix post-recent">
 									<div class="post-recent-thumb float-left"> <a href="javascript:void"
 											class="img-fluid rounded"
 											style="background-image: url('<?= base_url(); ?>assets/images/news/2.jpeg'); background-size: cover; min-width: 100%; width: 100px; height: 50px; display: block;">
 										</a></div>
-									<div class="post-recent-content float-left"><a href="jvascript:void(0)">Look On The
-											Glorious Balance</a> <span class="text-muted mt-2">15th June, 2019</span>
+									<div class="post-recent-content float-left"><a href="jvascript:void(0)">Family
+											Gathering</a> <span class="text-muted mt-2">15th June, 2020</span>
 									</div>
 								</div>
 								<div class="clearfix post-recent">
@@ -486,53 +385,12 @@
 											class="img-fluid rounded"
 											style="background-image: url('<?= base_url(); ?>assets/images/news/3.jpg'); background-size: cover; min-width: 100%; width: 100px; height: 50px; display: block;">
 										</a></div>
-									<div class="post-recent-content float-left"><a href="jvascript:void(0)">Research
-											Financial.</a> <span class="text-muted mt-2">15th June, 2019</span></div>
+									<div class="post-recent-content float-left"><a href="jvascript:void(0)">Family
+											Gathering</a> <span class="text-muted mt-2">15th June, 2020</span></div>
 								</div>
 							</div>
 						</div>
 						<!-- RECENT POST -->
-
-						<!-- TAG CLOUDS -->
-						<div class="widget mb-4 pb-2">
-							<h4 class="widget-title">Tags Cloud</h4>
-							<div class="tagcloud mt-4">
-								<a href="jvascript:void(0)" class="rounded">Business</a>
-								<a href="jvascript:void(0)" class="rounded">Finance</a>
-								<a href="jvascript:void(0)" class="rounded">Marketing</a>
-								<a href="jvascript:void(0)" class="rounded">Fashion</a>
-								<a href="jvascript:void(0)" class="rounded">Bride</a>
-								<a href="jvascript:void(0)" class="rounded">Lifestyle</a>
-								<a href="jvascript:void(0)" class="rounded">Travel</a>
-								<a href="jvascript:void(0)" class="rounded">Beauty</a>
-								<a href="jvascript:void(0)" class="rounded">Video</a>
-								<a href="jvascript:void(0)" class="rounded">Audio</a>
-							</div>
-						</div>
-						<!-- TAG CLOUDS -->
-
-						<!-- SOCIAL -->
-						<div class="widget">
-							<h4 class="widget-title">Follow us</h4>
-							<ul class="list-unstyled social-icon mb-0 mt-4">
-								<li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
-											data-feather="facebook" class="fea icon-sm fea-social"></i></a></li>
-								<li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
-											data-feather="instagram" class="fea icon-sm fea-social"></i></a></li>
-								<li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
-											data-feather="twitter" class="fea icon-sm fea-social"></i></a></li>
-								<li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
-											data-feather="linkedin" class="fea icon-sm fea-social"></i></a></li>
-								<li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
-											data-feather="github" class="fea icon-sm fea-social"></i></a></li>
-								<li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
-											data-feather="youtube" class="fea icon-sm fea-social"></i></a></li>
-								<li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
-											data-feather="gitlab" class="fea icon-sm fea-social"></i></a></li>
-							</ul>
-							<!--end icon-->
-						</div>
-						<!-- SOCIAL -->
 					</div>
 				</div>
 			</div>
