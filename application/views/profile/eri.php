@@ -93,36 +93,40 @@
 							<h5 class="widget-title">About Us</h5>
 							<div class="mt-4">
 								<div class="clearfix post-recent">
-									<div class="post-recent-thumb float-left"> <a href="javascript:void(0)"> <img
-												alt="img" width="50"
+									<div class="post-recent-thumb float-left"> <a
+											href="<?= site_url('profile/company'); ?>"> <img alt="img" width="50"
 												src="<?= base_url(); ?>assets/images/profile/building.svg"
 												class="img-fluid rounded"></a></div>
-									<div class="post-recent-content float-left"><a href="javascript:void(0)">Company
+									<div class="post-recent-content float-left"><a
+											href="<?= site_url('profile/company'); ?>">Company
 											Profile</a><span class="text-muted mt-2">About Us </span></div>
 								</div>
 								<div class="clearfix post-recent">
-									<div class="post-recent-thumb float-left"> <a href="javascript:void(0)"> <img
-												alt="img" width="50"
+									<div class="post-recent-thumb float-left"> <a
+											href="<?= site_url('profile/visi'); ?>"> <img alt="img" width="50"
 												src="<?= base_url(); ?>assets/images/profile/creative-idea.png"
 												class="img-fluid rounded"></a></div>
-									<div class="post-recent-content float-left"><a href="javascript:void(0)">Visi & Misi
+									<div class="post-recent-content float-left"><a
+											href="<?= site_url('profile/visi'); ?>">Visi & Misi
 											Perusahaan</a> <span class="text-muted mt-2">About Us </span>
 									</div>
 								</div>
 								<div class="clearfix post-recent">
-									<div class="post-recent-thumb float-left"> <a href="javascript:void(0)"> <img
-												alt="img" width="50"
+									<div class="post-recent-thumb float-left"> <a
+											href="<?= site_url('profile/era'); ?>"> <img alt="img" width="50"
 												src="<?= base_url(); ?>assets/images/profile/era-icon.png"
 												class="img-fluid rounded"></a></div>
-									<div class="post-recent-content float-left"><a href="javascript:void(0)">PT. Elastis
+									<div class="post-recent-content float-left"><a
+											href="<?= site_url('profile/era'); ?>">PT. Elastis
 											Reka Aktif</a> <span class="text-muted mt-2">About Us </span></div>
 								</div>
 								<div class="clearfix post-recent">
-									<div class="post-recent-thumb float-left"> <a href="javascript:void(0)"> <img
-												alt="img" width="50"
+									<div class="post-recent-thumb float-left"> <a
+											href="<?= site_url('profile/eri'); ?>"> <img alt="img" width="50"
 												src="<?= base_url(); ?>assets/images/profile/eri-icon.png"
 												class="img-fluid rounded"></a></div>
-									<div class="post-recent-content float-left"><a href="javascript:void(0)">PT. Elite
+									<div class="post-recent-content float-left"><a
+											href="<?= site_url('profile/eri'); ?>">PT. Elite
 											Recycling Indonesia</a> <span class="text-muted mt-2">About Us </span>
 									</div>
 								</div>
