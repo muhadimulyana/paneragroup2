@@ -87,13 +87,12 @@
 			<div class="col-lg-4 col-md-6 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
 				<div class="card border-0 sidebar sticky-bar rounded shadow">
 					<div class="card-body">
-
 						<!-- RECENT POST -->
 						<div class="widget mb-4 pb-2">
 							<h5 class="widget-title">About Us</h5>
 							<div class="mt-4">
 								<div class="clearfix post-recent">
-									<div class="post-recent-thumb float-left"> <a
+									<div class="post-recent-thumb float-left" style="width: 18%;"> <a
 											href="<?= site_url('profile/company'); ?>"> <img alt="img" width="50"
 												src="<?= base_url(); ?>assets/images/profile/building.svg"
 												class="img-fluid rounded"></a></div>
@@ -102,7 +101,7 @@
 											Profile</a><span class="text-muted mt-2">About Us </span></div>
 								</div>
 								<div class="clearfix post-recent">
-									<div class="post-recent-thumb float-left"> <a
+									<div class="post-recent-thumb float-left" style="width: 18%;"> <a
 											href="<?= site_url('profile/visi'); ?>"> <img alt="img" width="50"
 												src="<?= base_url(); ?>assets/images/profile/creative-idea.png"
 												class="img-fluid rounded"></a></div>
@@ -112,7 +111,7 @@
 									</div>
 								</div>
 								<div class="clearfix post-recent">
-									<div class="post-recent-thumb float-left"> <a
+									<div class="post-recent-thumb float-left" style="width: 18%;"> <a
 											href="<?= site_url('profile/era'); ?>"> <img alt="img" width="50"
 												src="<?= base_url(); ?>assets/images/profile/era-icon.png"
 												class="img-fluid rounded"></a></div>
@@ -121,7 +120,7 @@
 											Reka Aktif</a> <span class="text-muted mt-2">About Us </span></div>
 								</div>
 								<div class="clearfix post-recent">
-									<div class="post-recent-thumb float-left"> <a
+									<div class="post-recent-thumb float-left" style="width: 18%;"> <a
 											href="<?= site_url('profile/eri'); ?>"> <img alt="img" width="50"
 												src="<?= base_url(); ?>assets/images/profile/eri-icon.png"
 												class="img-fluid rounded"></a></div>

@@ -96,7 +96,7 @@
 							<h5 class="widget-title">About Us</h5>
 							<div class="mt-4">
 								<div class="clearfix post-recent">
-									<div class="post-recent-thumb float-left"> <a
+									<div class="post-recent-thumb float-left" style="width: 18%;"> <a
 											href="<?= site_url('profile/company'); ?>"> <img alt="img" width="50"
 												src="<?= base_url(); ?>assets/images/profile/building.svg"
 												class="img-fluid rounded"></a></div>
@@ -105,7 +105,7 @@
 											Profile</a><span class="text-muted mt-2">About Us </span></div>
 								</div>
 								<div class="clearfix post-recent">
-									<div class="post-recent-thumb float-left"> <a
+									<div class="post-recent-thumb float-left" style="width: 18%;"> <a
 											href="<?= site_url('profile/visi'); ?>"> <img alt="img" width="50"
 												src="<?= base_url(); ?>assets/images/profile/creative-idea.png"
 												class="img-fluid rounded"></a></div>
@@ -115,7 +115,7 @@
 									</div>
 								</div>
 								<div class="clearfix post-recent">
-									<div class="post-recent-thumb float-left"> <a
+									<div class="post-recent-thumb float-left" style="width: 18%;"> <a
 											href="<?= site_url('profile/era'); ?>"> <img alt="img" width="50"
 												src="<?= base_url(); ?>assets/images/profile/era-icon.png"
 												class="img-fluid rounded"></a></div>
@@ -124,7 +124,7 @@
 											Reka Aktif</a> <span class="text-muted mt-2">About Us </span></div>
 								</div>
 								<div class="clearfix post-recent">
-									<div class="post-recent-thumb float-left"> <a
+									<div class="post-recent-thumb float-left" style="width: 18%;"> <a
 											href="<?= site_url('profile/eri'); ?>"> <img alt="img" width="50"
 												src="<?= base_url(); ?>assets/images/profile/eri-icon.png"
 												class="img-fluid rounded"></a></div>
