@@ -58,8 +58,7 @@
 								Alam</span>, Berorientasi Pada
 							<span class="text-blue">Kualitas</span>.</b>
 					</h4>
-					<p class="text-muted para-desc mb-0">Kondisi virus Covid-19 membuat beberapa distributor kami harus
-						menyesuaikan jam operasional. Namun kami tetap berkomitmen untuk memenuhi kebutuhan Anda,
+					<p class="text-muted para-desc mb-0">Kami tetap berkomitmen untuk memenuhi kebutuhan Anda,
 						silahkan untuk menghubungi nomor telepon kami agar mendapatkan contact distributor produk
 						plastik kami.</p>
 					<div class="d-inline-block">
@@ -91,9 +90,10 @@
 		<div class="row justify-content-center">
 			<div class="col-12 text-center">
 				<div class="section-title">
-					<h4 class="title title-dark text-white mb-4">PAN ERA GROUP</h4>
-					<p class="text-light para-desc para-dark mx-auto">Start working with PAN ERA GROUP that can provide
-						everything you need to generate skills, communication, and experience.</p>
+					<h2 class="title title-dark text-white mb-4">PAN ERA GROUP</h2>
+					<h5 class="text-light para-desc para-dark mx-auto font-weight-light">Start working with PAN ERA
+						GROUP that can provide
+						everything you need to generate skills, communication, and experience.</h5>
 				</div>
 			</div>
 			<!--end col-->
@@ -130,7 +130,7 @@
 					</div>
 
 					<div class="content mt-4">
-						<h4 class="title-2"><a href="<?= site_url('profile#company'); ?>">Profil Perusahaan</a></h4>
+						<h4 class="title-2"><a href="<?= site_url('profile/company'); ?>">Profil Perusahaan</a></h4>
 						<p class="text-muted mb-0">Pengenalan perusahaan - perusahaan yang tergabung dalam Pan Era
 							Group</p>
 					</div>
@@ -145,7 +145,7 @@
 					</div>
 
 					<div class="content mt-4">
-						<h4 class="title-2"><a href="<?= site_url('profile#vision'); ?>">Visi & Misi</a></h4>
+						<h4 class="title-2"><a href="<?= site_url('profile/visi'); ?>">Visi & Misi</a></h4>
 						<p class="text-muted mb-0">Ambisi kami yang kemudian menjadi daya dorong untuk terus maju dan
 							berkembang</p>
 					</div>
