@@ -11,15 +11,10 @@
 		<div class="row align-items-center">
 			<div class="col-md-6 col-12 order-2 order-md-1">
 				<div class="title-heading">
-					<span class="badge badge-pill badge-soft-primary">Tentang Kami</span>
-					<h1 style="line-height: 1;" class="font-weight-bold mt-2 mb-3">Profil <br> Perusahaan</h1>
+					<h1 style="line-height: 1;" class="font-weight-bold mt-5 mb-3">Profil, Visi & Misi <br> Perusahaan</h1>
 					<p class="para-desc text-muted">Pengenalan profil perusahaan dan sejarah dibentuknya Pan Era Group
 					</p>
 				</div>
-			</div>
-			<!--end col-->
-			<div class="col-md-6 mt-4 pt-2 mt-sm-0 pt-sm-0 order-1 order-md-2">
-				<img src="<?= base_url(); ?>assets/images/profile/build2.png" width="200px" class="img-fluid d-block mx-auto" alt="">
 			</div>
 			<!--end col-->
 			<div class="col-md-12 order-3 order-md-3 text-center">
@@ -102,16 +97,6 @@
 									<div class="post-recent-content float-left"><a
 											href="<?= site_url('profile/company'); ?>">Company
 											Profile</a><span class="text-muted mt-2">About Us </span></div>
-								</div>
-								<div class="clearfix post-recent">
-									<div class="post-recent-thumb float-left" style="width: 18%;"> <a
-											href="<?= site_url('profile/visi'); ?>"> <img alt="img" width="50"
-												src="<?= base_url(); ?>assets/images/profile/creative-idea.png"
-												class="img-fluid rounded"></a></div>
-									<div class="post-recent-content float-left"><a
-											href="<?= site_url('profile/visi'); ?>">Visi & Misi
-											Perusahaan</a> <span class="text-muted mt-2">About Us </span>
-									</div>
 								</div>
 								<div class="clearfix post-recent">
 									<div class="post-recent-thumb float-left" style="width: 18%;"> <a

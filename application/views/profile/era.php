@@ -114,16 +114,6 @@
 								</div>
 								<div class="clearfix post-recent">
 									<div class="post-recent-thumb float-left" style="width: 18%;"> <a
-											href="<?= site_url('profile/visi'); ?>"> <img alt="img" width="50"
-												src="<?= base_url(); ?>assets/images/profile/creative-idea.png"
-												class="img-fluid rounded"></a></div>
-									<div class="post-recent-content float-left"><a
-											href="<?= site_url('profile/visi'); ?>">Visi & Misi
-											Perusahaan</a> <span class="text-muted mt-2">About Us </span>
-									</div>
-								</div>
-								<div class="clearfix post-recent">
-									<div class="post-recent-thumb float-left" style="width: 18%;"> <a
 											href="<?= site_url('profile/era'); ?>"> <img alt="img" width="50"
 												src="<?= base_url(); ?>assets/images/profile/era-icon.png"
 												class="img-fluid rounded"></a></div>
