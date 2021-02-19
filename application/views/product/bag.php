@@ -7,19 +7,19 @@
 
 <!-- Hero Start -->
 <section class="bg-half d-table w-100"
-	style="background: url('<?= base_url(); ?>assets/images/product/plastic-resin.png') center; background-size: cover;  background-attachment: fixed;">
+	style="background: url('<?= base_url(); ?>assets/images/product/products.png') center; background-size: cover;  background-attachment: fixed;">
 	<div class="bg-overlay"></div>
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-lg-12 text-center">
 				<div class="page-next-level">
-					<h4 class="title text-white title-dark"> Bijih Plastik Daur Ulang </h4>
+					<h4 class="title text-white title-dark"> Kantong Plastik </h4>
 					<div class="page-next">
 						<nav aria-label="breadcrumb" class="d-inline-block">
 							<ul class="breadcrumb bg-white rounded shadow mb-0">
 								<li class="breadcrumb-item"><a href="<?= base_url('home'); ?>">Home</a></li>
                                 <li class="breadcrumb-item"><a href="javascript:void">Product</a></li>
-								<li class="breadcrumb-item active" aria-current="page">Bijih Plastik Daur Ulang</li>
+								<li class="breadcrumb-item active" aria-current="page">Kantong Plastik</li>
 							</ul>
 						</nav>
 					</div>
