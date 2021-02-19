@@ -20,7 +20,7 @@
 
 	<div class="container mt-100 mt-60">
 		<div class="row">
-			<div class="col-md-4">
+			<div class="col-md-6">
 				<div class="card contact-detail text-center border-0">
 					<div class="card-body p-0">
 						<div class="icon">
@@ -38,7 +38,7 @@
 			</div>
 			<!--end col-->
 
-			<div class="col-md-4 mt-4 mt-sm-0 pt-2 pt-sm-0">
+			<div class="col-md-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
 				<div class="card contact-detail text-center border-0">
 					<div class="card-body p-0">
 						<div class="icon">
@@ -54,79 +54,6 @@
 				</div>
 			</div>
 			<!--end col-->
-
-			<div class="col-md-4 mt-4 mt-sm-0 pt-2 pt-sm-0">
-				<div class="card contact-detail text-center border-0">
-					<div class="card-body p-0">
-						<div class="icon">
-							<img src="<?= base_url(); ?>assets/images/contact/location.svg" class="avatar avatar-small"
-								alt="">
-						</div>
-						<div class="content mt-3">
-							<h4 class="title font-weight-bold">Location</h4>
-							<p class="text-muted">Jl. Kapuk Raya No. 88 Penjaringan, Jakarta Utara<br> DKI
-								Jakarta 14460 Indonesia</p>
-							<a href="https://www.google.co.id/maps/place/Elastis+Reka+Aktif/@-6.1348581,106.7552249,17z/data=!3m1!4b1!4m5!3m4!1s0x2e6a1d63220363dd:0xaca2e692b445099a!8m2!3d-6.1348581!4d106.7574136"
-								class="h6 text-primary" target="_blank">View on Google map</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--end col-->
-		</div>
-
-		<div class="row mt-lg-5">
-
-			<div class="col-md-4 mt-4 mt-sm-0 pt-2 pt-sm-0">
-				<div class="card contact-detail text-center border-0">
-					<div class="card-body p-0">
-						<div class="icon">
-							<img src="<?= base_url(); ?>assets/images/contact/fax.svg" class="avatar avatar-small"
-								alt="">
-						</div>
-						<div class="content mt-3">
-							<h4 class="title font-weight-bold">Faximile</h4>
-							<p class="text-muted">Hubungi kami melalui faximile <br> pada nomor berikut</p>
-							<a href="tel:+62215457571" class="text-primary">+6221-545-7571</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--end col-->
-			<div class="col-md-4 mt-4 mt-sm-0 pt-2 pt-sm-0">
-				<div class="card contact-detail text-center border-0">
-					<div class="card-body p-0">
-						<div class="icon">
-							<img src="<?= base_url(); ?>assets/images/contact/web.svg" class="avatar avatar-small"
-								alt="">
-						</div>
-						<div class="content mt-3">
-							<h4 class="title font-weight-bold">Website</h4>
-							<p class="text-muted">Kunjungi website kami yang <br>selalu online 7x24 Jam</p>
-							<a href="<?= site_url(); ?>" class="h6 text-primary">View website</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--end col-->
-			<div class="col-md-4 mt-4 mt-sm-0 pt-2 pt-sm-0">
-				<div class="card contact-detail text-center border-0">
-					<div class="card-body p-0">
-						<div class="icon">
-							<img src="<?= base_url(); ?>assets/images/contact/phone.svg" class="avatar avatar-small"
-								alt="">
-						</div>
-						<div class="content mt-3">
-							<h4 class="title font-weight-bold">Whatsapp</h4>
-							<p class="text-muted">Kami juga melayani via whatsapp, yang tertera pada nomor berikut</p>
-							<a href="https://api.whatsapp.com/send?phone=6289626777975" class="text-primary">+62
-								896-2677-7975</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--end col-->
-
 		</div>
 	</div>
 	<!--end row-->
@@ -165,15 +92,6 @@
 								<td><a href="mailto:info@paneragroup.com">hrd@paneragroup.com</a><br></td>
 							</tr>
 						</table>
-						<!-- <span class="text-dark h6">Informasi Umum:</span>
-						<a href="mailto:info@paneragroup.com">info@paneragroup.com</a><br>
-						<span class="text-dark h6">Departemen Pembelian Bahan Baku:</span>
-						<a href="mailto:purchasing@paneragroup.com">purchasing@paneragroup.com</a><br>
-						<span class="text-dark h6">Departemen Pemasaran:</span> <a
-							href="mailto:marketing@paneragroup.com">marketing@paneragroup.com<br>
-							<span class="text-dark h6">Departemen Sumber
-								Daya Manusia:</span><a href="mailto:hrd@paneragroup.com">
-								hrd@paneragroup.com</a></span> -->
 					</p>
 					<p class="">Atau tinggalkan pesan dengan mengisi detail di bawah ini:
 					</p>
@@ -222,31 +140,12 @@
 							<!--end col-->
 							<div class="col-md-6">
 								<div class="form-group position-relative">
-									<label>Your Position <span class="text-danger">*</span></label>
-									<i data-feather="user-check" class="fea icon-sm icons"></i>
-									<input name="position" id="position" type="text" class="form-control pl-5"
-										placeholder="Your position :">
-								</div>
-							</div>
-							<!--end col-->
-							<div class="col-md-6">
-								<div class="form-group position-relative">
 									<label>Your Phone Number<span class="text-danger">*</span></label>
 									<i data-feather="phone" class="fea icon-sm icons"></i>
 									<input name="phone" id="phone" type="text" class="form-control pl-5"
 										placeholder="Your phone number:">
 								</div>
 							</div>
-							<!--end col-->
-							<div class="col-md-6">
-								<div class="form-group position-relative">
-									<label>Your Handphone Number<span class="text-danger">*</span></label>
-									<i data-feather="smartphone" class="fea icon-sm icons"></i>
-									<input name="hp" id="hp" type="text" class="form-control pl-5"
-										placeholder="Your handphone number :">
-								</div>
-							</div>
-							<!--end col-->
 							<div class="col-md-6">
 								<div class="form-group position-relative">
 									<label>Your Email <span class="text-danger">*</span></label>
@@ -258,16 +157,7 @@
 							<!--end col-->
 							<div class="col-md-12">
 								<div class="form-group position-relative">
-									<label>Subject</label>
-									<i data-feather="book" class="fea icon-sm icons"></i>
-									<input name="subject" id="subject" class="form-control pl-5"
-										placeholder="Your subject :">
-								</div>
-							</div>
-							<!--end col-->
-							<div class="col-md-12">
-								<div class="form-group position-relative">
-									<label>Comments</label>
+									<label>Message</label>
 									<i data-feather="message-circle" class="fea icon-sm icons"></i>
 									<textarea name="comments" id="comments" rows="4" class="form-control pl-5"
 										placeholder="Your Message :"></textarea>

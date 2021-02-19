@@ -354,29 +354,6 @@
 				</div>
 				<!--end col-->
 
-				<div class="col-lg-3 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
-					<h4 class="text-dark footer-head">Berlangganan</h4>
-					<p class="mt-4 text-muted">Mulai berlangganan untuk mendapatkan informasi dan lowongan pekerjaan</p>
-					<form>
-						<div class="row">
-							<div class="col-lg-12">
-								<div class="foot-subscribe foot-white form-group position-relative">
-									<label class="text-muted">Masukkan dan kirim email anda <span
-											class="text-danger">*</span></label>
-									<i data-feather="mail" class="fea icon-sm icons"></i>
-									<input type="email" name="email" id="emailsubscribe"
-										class="form-control bg-light border pl-5 rounded" placeholder="Email anda : "
-										required>
-								</div>
-							</div>
-							<div class="col-lg-12">
-								<input type="submit" id="submitsubscribe" name="send"
-									class="btn btn-soft-primary btn-block" value="Berlangganan">
-							</div>
-						</div>
-					</form>
-				</div>
-				<!--end col-->
 			</div>
 			<!--end row-->
 		</div>
