@@ -10,6 +10,10 @@
 		}
 	}
 
+	.main-slider .slides .bg-slider {
+		height: 80vh;
+	}
+
 </style>
 
 <!-- Hero Start -->
@@ -17,11 +21,11 @@
 	<ul class="slides">
 		<?php foreach($slider as $row) : ?>
 		<li class="bg-slider bg-animation-left d-flex align-items-center"
-			style="background-image:url('<?= base_url(); ?>assets/images/slider/<?= $row->GAMBAR; ?>'); background-size: cover; min-height: 100vh; background-attachment: fixed;">
+			style="background-image:url('<?= base_url(); ?>assets/images/slider/<?= $row->GAMBAR; ?>'); background-size: cover; min-height: 80vh; background-attachment: fixed;">
 			<div class="container">
 				<div class="row align-items-center">
 					<div class="col-lg-7 col-md-7">
-						<div class="title-heading position-relative mt-4" style="z-index: 1;">
+						<div class="title-heading position-relative mt-5" style="z-index: 1;">
 							<h1 class="heading mb-3"><?= $row->JUDUL; ?></h1>
 							<p class="para-desc"><?= $row->ISI; ?></p>
 							<div class="watch-video mt-4 pt-2">
@@ -44,13 +48,13 @@
 
 	<div class="container">
 		<div class="row align-items-center">
-			<div class="col-lg-5 col-md-5 col-12">
-				<img src="<?= base_url(); ?>assets/images/home/new.png" style="max-width: 80%;"
+			<div class="col-lg-4 col-md-4 col-12">
+				<img src="<?= base_url(); ?>assets/images/home/recycle.png" style="max-width: 60%;"
 					class="img-fluid mx-auto d-block" alt="">
 			</div>
 			<!--end col-->
 
-			<div class="col-lg-7 col-md-7 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+			<div class="col-lg-8 col-md-8 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
 				<div class="section-title">
 					<span class="title" style="font-size: 18px;">Selamat Datang</span> <span class="title text-blue"
 						style="font-size: 18px;"><b>Di PAN ERA Group</b></span>
