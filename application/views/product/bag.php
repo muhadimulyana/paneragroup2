@@ -2,26 +2,48 @@
 	/* html {
 		scroll-behavior: smooth;
 	} */
+	.img-fluid {
+		width: 400px;
+	}
 
 </style>
 
+
 <!-- Hero Start -->
-<section class="bg-half d-table w-100"
-	style="background: url('<?= base_url(); ?>assets/images/product/products.png') center; background-size: cover;  background-attachment: fixed;">
-	<div class="bg-overlay"></div>
+<section class="section d-table w-100 overflow-hidden" id="home">
 	<div class="container">
-		<div class="row justify-content-center">
-			<div class="col-lg-12 text-center">
-				<div class="page-next-level">
-					<h4 class="title text-white title-dark"> Kantong Plastik </h4>
-					<div class="page-next">
-						<nav aria-label="breadcrumb" class="d-inline-block">
-							<ul class="breadcrumb bg-white rounded shadow mb-0">
-								<li class="breadcrumb-item"><a href="<?= base_url('home'); ?>">Home</a></li>
-                                <li class="breadcrumb-item"><a href="javascript:void">Product</a></li>
-								<li class="breadcrumb-item active" aria-current="page">Kantong Plastik</li>
-							</ul>
-						</nav>
+		<div class="row align-items-center">
+			<div class="col-lg-7 col-md-7 order-2 order-md-1">
+				<div class="section-title">
+					<h1 class="title mb-3">Kantong Plastic LOCO <br> Ekonomis</h1>
+					<p class="para-desc text-muted"> Jika di bandingan dengan LOCO memang memiliki ketebalan yang berbeda. Jika di bandingan dengan LOCO memang memiliki ketebalan yang berbeda. Namun bukan berarti kualitas LOCO Ekonomis tidak bagus. LOCO Ekonomis didesain untuk membawa barang - barang dalam skala yang bobot yang lebih sedikit.</p>
+					<ul class="list-unstyled text-muted">
+						<li class="mb-0"><span class="text-primary h5 mr-2"><i
+									class="uim uim-check-circle"></i></span>Digital Marketing Solutions for Tomorrow
+						</li>
+						<li class="mb-0"><span class="text-primary h5 mr-2"><i
+									class="uim uim-check-circle"></i></span>Our Talented & Experienced Marketing Agency
+						</li>
+						<li class="mb-0"><span class="text-primary h5 mr-2"><i
+									class="uim uim-check-circle"></i></span>Create your own skin to match your brand
+						</li>
+					</ul>
+					<div class="mt-4">
+						<a href="javascript:void(0)" class="mt-3 h6 text-primary">Find Out More <i
+								class="mdi mdi-chevron-right"></i></a>
+					</div>
+				</div>
+			</div>
+			<!--end col-->
+
+			<div class="col-lg-5 col-md-5 mt-4 pt-2 mt-sm-0 pt-sm-0 order-1 order-md-2">
+				<div class="classic-app-image position-relative">
+					<div class="bg-app-shape position-relative">
+						<img src="<?= base_url(); ?>assets/images/product/eco.png"
+							class="img-fluid mover mx-auto d-block " alt="">
+					</div>
+					<div class="app-images d-none d-md-block">
+						<img src="images/app/calender.png" class="img-fluid" alt="">
 					</div>
 				</div>
 			</div>
@@ -32,71 +54,120 @@
 	<!--end container-->
 </section>
 <!--end section-->
+<!-- Hero End -->
 
-<!-- Shape Start -->
-<div class="position-relative">
-	<div class="shape overflow-hidden text-white">
-		<svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-			<path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
-		</svg>
-	</div>
-</div>
-<!--Shape End-->
+<!-- Section Start -->
+<section class="section overflow-hidden">
 
-<!-- Blog STart -->
-<section class="section">
-	<div class="container">
-		<div class="row justify-content-center">
-			<div class="col-12 text-center">
-				<div class="section-title mb-4 pb-2">
-					<h4 class="title mb-4 text-dark">Produk Kami</h4>
-					<p class="text-dark para-desc mx-auto mb-0">Produk ramah lingkungan yang menjadi inti dan asal
-						identitas
-						kami. Serta LOCO, kantong plastik kebanggaan besar kami yang kami kembangkan</p>
+	<div class="container mt-100 mt-60">
+		<div class="row align-items-center">
+			<div class="col-lg-6 col-md-5">
+				<div class="app-feature-shape-left position-relative">
+					<div class="text-center text-md-left">
+						<img src="<?= base_url(); ?>assets/images/product/rainbow.png" class="img-fluid mover" alt="">
+					</div>
+				</div>
+			</div>
+			<!--end col-->
+
+			<div class="col-lg-6 col-md-7 mt-5 mt-sm-0">
+				<div class="section-title">
+					<h1 class="title mb-3">Kantong Plastik Loco <br> Rainbow</h1>
+					<p class="para-desc text-muted">Launch your campaign and benefit from our expertise on designing and
+						managing conversion centered bootstrap4 html page.</p>
+					<ul class="list-unstyled text-muted">
+						<li class="mb-0"><span class="text-primary h5 mr-2"><i
+									class="uim uim-check-circle"></i></span>Digital Marketing Solutions for Tomorrow
+						</li>
+						<li class="mb-0"><span class="text-primary h5 mr-2"><i
+									class="uim uim-check-circle"></i></span>Our Talented & Experienced Marketing Agency
+						</li>
+						<li class="mb-0"><span class="text-primary h5 mr-2"><i
+									class="uim uim-check-circle"></i></span>Create your own skin to match your brand
+						</li>
+					</ul>
+					<div class="mt-4">
+						<a href="javascript:void(0)" class="mt-3 h6 text-primary">Find Out More <i
+								class="mdi mdi-chevron-right"></i></a>
+					</div>
 				</div>
 			</div>
 			<!--end col-->
 		</div>
-		<div class="row">
-			<div class="col-lg-6 col-md-6 col-12 mt-4 pt-2 branding">
-				<div class="card border-0 work-container work-classic">
-					<div class="card-body p-0">
-						<a href="javascript:void"><img src="<?= base_url(); ?>assets/images/product/plastic-resin.png"
-								class="img-fluid rounded work-image" alt=""></a>
-						<div class="content pt-3">
-							<h5 class="mb-0"><a href="javascript:void" class="text-dark title">Biji Plastik Daur
-									Ulang</a>
-							</h5>
-							<h6 class="text-muted tag mb-0">Kami memproduksi dan memasarkan biji plastik yang berasal
-								dari hasil daur ulang limbah plastik.</h6>
-						</div>
+		<!--end row-->
+	</div>
+	<!--end container-->
+
+	<div class="container mt-100 mt-60">
+		<div class="row align-items-center">
+			<div class="col-lg-6 col-md-7 order-2 order-md-1 mt-5 mt-sm-0">
+				<div class="section-title">
+					<h1 class="title mb-3">Kantong Plastik LOCO <br> Tebal</h1>
+					<p class="para-desc text-muted">Launch your Lorem ipsum dolor, sit amet consectetur adipisicing
+						elit. Eveniet eligendi expedita ducimus fuga sed possimus veritatis eum voluptates. Ab ex odio
+						sed atque. Quam delectus, voluptatibus rem harum nihil minus. campaign and benefit from our
+						expertise on designing and managing conversion centered bootstrap4 html page.</p>
+					<div class="mt-4">
+						<a href="javascript:void(0)" class="btn btn-primary">Learn More <i
+								class="mdi mdi-chevron-right"></i></a>
 					</div>
 				</div>
 			</div>
 			<!--end col-->
-			<div class="col-lg-6 col-md-6 col-12 mt-4 pt-2 branding">
-				<div class="card border-0 work-container work-classic">
-					<div class="card-body p-0">
-						<a href="javascript:void"><img src="<?= base_url(); ?>assets/images/product/products.png"
-								class="img-fluid rounded work-image" alt=""></a>
-						<div class="content pt-3">
-							<h5 class="mb-0"><a href="javascript:void" class="text-dark title">Kantong Plastik</a>
-							</h5>
-							<h6 class="text-muted tag mb-0">Kantong Plastik LOCO adalah merek dagang milik Pan Era Group
-								untuk produk kantong plastik.</h6>
-						</div>
+
+			<div class="col-lg-6 col-md-5 order-1 order-md-2">
+				<div class="app-feature-shape-right position-relative">
+					<div class="text-center text-md-right">
+						<img src="<?= base_url(); ?>assets/images/product/tebal.png" class="img-fluid mover" alt="">
 					</div>
 				</div>
 			</div>
 			<!--end col-->
-			<div class="col-md-12 justify-content-center text-center mt-5">
-				<a href="http://loco.co.id:1100" class="btn btn-soft-primary btn-pills">Selengkapnya <i
-						data-feather="arrow-right" class="fea icon-sm"> </i></a>
+		</div>
+		<!--end row-->
+	</div>
+	<!--end container-->
+
+	<div class="container mt-100 mt-60">
+		<div class="row align-items-center">
+			<div class="col-lg-6 col-md-5">
+				<div class="app-feature-shape-left position-relative">
+					<div class="text-center text-md-left">
+						<img src="<?= base_url(); ?>assets/images/product/antipanas.png" class="img-fluid mover" alt="">
+					</div>
+				</div>
 			</div>
+			<!--end col-->
+
+			<div class="col-lg-6 col-md-7 mt-5 mt-sm-0">
+				<div class="section-title">
+					<h1 class="title mb-3">Kantong Plastik LOCO <br> Anti Panas</h1>
+					<p class="para-desc text-muted">Launch your campaign and benefit from our expertise on designing and
+						managing conversion centered bootstrap4 html page.</p>
+					<ul class="list-unstyled text-muted">
+						<li class="mb-0"><span class="text-primary h5 mr-2"><i
+									class="uim uim-check-circle"></i></span>Digital Marketing Solutions for Tomorrow
+						</li>
+						<li class="mb-0"><span class="text-primary h5 mr-2"><i
+									class="uim uim-check-circle"></i></span>Our Talented & Experienced Marketing Agency
+						</li>
+						<li class="mb-0"><span class="text-primary h5 mr-2"><i
+									class="uim uim-check-circle"></i></span>Create your own skin to match your brand
+						</li>
+					</ul>
+					<div class="mt-4">
+						<a href="javascript:void(0)" class="btn btn-primary">Read More <i
+								class="mdi mdi-chevron-right"></i></a>
+					</div>
+				</div>
+			</div>
+			<!--end col-->
 		</div>
 		<!--end row-->
 	</div>
 	<!--end container-->
 </section>
 <!--end section-->
-<!-- Blog End -->
+<!-- Section End -->
+
+<!-- Subscribe End -->

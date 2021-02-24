@@ -44,7 +44,7 @@
 <!-- Hero End -->
 
 <!-- Start Plan -->
-<section class="section bg-light">
+<section class="section">
 
 	<div class="container">
 		<div class="row align-items-center">
@@ -87,7 +87,7 @@
 
 <!-- CTA Start -->
 <section class="section bg-cta" data-jarallax='{"speed": 0.5}'
-	style="background: url('<?= base_url(); ?>assets/images/home/a.jpg') center center;" id="cta">
+	style="background: url('<?= base_url(); ?>assets/images/home/work.jpg') center center;" id="cta">
 	<div class="bg-overlay bg-overlay-gradient"></div>
 	<div class="container">
 		<div class="row justify-content-center">
@@ -126,7 +126,7 @@
 			<div class="col-md-4 col-12 mt-5">
 				<div class="features text-center">
 					<div class="image position-relative d-inline-block">
-						<img src="<?= base_url(); ?>assets/images/services/building.svg" class="avatar avatar-small"
+						<img src="<?= base_url(); ?>assets/images/services/icon-profil.png" class="avatar avatar-small"
 							alt="">
 					</div>
 
@@ -142,7 +142,7 @@
 			<div class="col-md-4 col-12 mt-5">
 				<div class="features text-center">
 					<div class="image position-relative d-inline-block">
-						<img src="<?= base_url(); ?>assets/images/services/idea.svg" class="avatar avatar-small" alt="">
+						<img src="<?= base_url(); ?>assets/images/services/icon-visi.png" class="avatar avatar-small" alt="">
 					</div>
 
 					<div class="content mt-4">
@@ -157,7 +157,7 @@
 			<div class="col-md-4 col-12 mt-5">
 				<div class="features text-center">
 					<div class="image position-relative d-inline-block">
-						<img src="<?= base_url(); ?>assets/images/services/recycle.svg" class="avatar avatar-small"
+						<img src="<?= base_url(); ?>assets/images/services/icon-bijih.png" class="avatar avatar-small"
 							alt="">
 					</div>
 
@@ -174,7 +174,7 @@
 			<div class="col-md-4 col-12 mt-5">
 				<div class="features text-center">
 					<div class="image position-relative d-inline-block">
-						<img src="<?= base_url(); ?>assets/images/services/reusable.svg" class="avatar avatar-small"
+						<img src="<?= base_url(); ?>assets/images/services/icon-kantong.png" class="avatar avatar-small"
 							alt="">
 					</div>
 
@@ -189,7 +189,7 @@
 			<div class="col-md-4 col-12 mt-5">
 				<div class="features text-center">
 					<div class="image position-relative d-inline-block">
-						<img src="<?= base_url(); ?>assets/images/services/hired.svg" class="avatar avatar-small"
+						<img src="<?= base_url(); ?>assets/images/services/icon-sdm.png" class="avatar avatar-small"
 							alt="">
 					</div>
 
@@ -205,7 +205,7 @@
 			<div class="col-md-4 col-12 mt-5">
 				<div class="features text-center">
 					<div class="image position-relative d-inline-block">
-						<img src="<?= base_url(); ?>assets/images/services/job-search.svg" class="avatar avatar-small"
+						<img src="<?= base_url(); ?>assets/images/services/icon-karir.png" class="avatar avatar-small"
 							alt="">
 					</div>
 

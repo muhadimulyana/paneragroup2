@@ -57,8 +57,6 @@
 					<img src="images/blog/01.jpg" class="img-fluid rounded-top" alt="">
 					<div class="card-body content">
 						<h5 class="mt-3">PT. Elite Recycling Indonesia</h5>
-						<span class="badge badge-pill badge-primary mt-3"> Kantong Plastik </span>&nbsp; <span
-							class="badge badge-pill badge-primary mt-3"> Biji Plastik </span>
 
 						<p class="text-muted mt-3">Didirikan pada tahun 2011, PT Elite Recycling Indonesia merupakan
 							bagian dari visi organisasi untuk mewujudkan sebuah industri daur ulang yang modern dan
