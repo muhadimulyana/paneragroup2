@@ -6,13 +6,14 @@
 	}
 </style>
 
-<section class="d-table w-100 bg-light bg-half">
+<section class="d-table w-100 bg-half" style="background: url('<?= base_url(); ?>assets/images/profile/bg-1.jpg') center center; background-size: cover;">
+	<div class="bg-overlay"></div>
 	<div class="container">
 		<div class="row align-items-center">
 			<div class="col-md-6 col-12 order-2 order-md-1">
-				<div class="title-heading">
+				<div class="title-heading text-white">
 					<h1 style="line-height: 1;" class="font-weight-bold mt-5 mb-3">Profil, Visi & Misi <br> Perusahaan</h1>
-					<p class="para-desc text-muted">Pengenalan profil perusahaan dan sejarah dibentuknya Pan Era Group
+					<p class="para-desc text-white">Pengenalan profil perusahaan dan sejarah dibentuknya Pan Era Group
 					</p>
 				</div>
 			</div>
@@ -46,7 +47,6 @@
 			<div class="col-lg-8 col-md-6">
 				<div class="card blog blog-detail border-0 shadow rounded">
 					<div class="card-body content">
-						<h5 class="mt-3">Company Profile</h5>
 						<p class="text-muted mt-3">Pan Era Group dibentuk pada tahun 2011, dan pada awalnya merupakan
 							gabungan dari dua buah perusahaan, PT Elastis Reka Aktif dan PT Elite Recycling Indonesia.
 						</p>

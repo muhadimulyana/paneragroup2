@@ -4,25 +4,36 @@
 			padding: 100px 0 50px;
 		}
 	}
+
+	.bg-overlay-white {
+		background-color: rgba(255, 255, 255, 0.6);
+		position: absolute;
+		top: 0;
+		right: 0;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		height: 100%;
+	}
 </style>
 
 <section class="d-table w-100 bg-light bg-half"
-	style="background: url('<?= base_url(); ?>assets/images/profile/shape.png">
+	style="background: url('<?= base_url(); ?>assets/images/profile/bg-3.jpg">
+	<div class="bg-overlay-white"></div>
 	<div class="container">
 		<div class="row align-items-center">
 			<div class="col-md-6 col-12 order-2 order-md-1">
+				<img width="80px" src="<?= base_url(); ?>assets/images/profile/eri.png" class="img-fluid d-block"
+					alt="">
 				<div class="title-heading">
-					<span class="badge badge-pill badge-soft-primary">About Us</span>
 					<h1 class="font-weight-bold mt-2 mb-3">PT. Elite Recycling Indonesia</h1>
-					<p class="para-desc text-muted">Kami adalah organisasi yang berdedikasi pada alam, berorientasi pada
-						kualitas.
+					<p class="para-desc">Perusahaan manufaktur kantong plastik dan bijih plastik
 					</p>
 				</div>
 			</div>
 			<!--end col-->
 			<div class="col-md-6 mt-4 pt-2 mt-sm-0 pt-sm-0 order-1 order-md-2">
-				<img width="200px" src="<?= base_url(); ?>assets/images/profile/eri-icon.png" class="img-fluid d-block mx-auto"
-					alt="">
+				
 			</div>
 			<!--end col-->
 			<div class="col-md-12 order-3 order-md-3 text-center">
@@ -56,7 +67,6 @@
 				<div class="card blog blog-detail border-0 shadow rounded">
 					<img src="images/blog/01.jpg" class="img-fluid rounded-top" alt="">
 					<div class="card-body content">
-						<h5 class="mt-3">PT. Elite Recycling Indonesia</h5>
 
 						<p class="text-muted mt-3">Didirikan pada tahun 2011, PT Elite Recycling Indonesia merupakan
 							bagian dari visi organisasi untuk mewujudkan sebuah industri daur ulang yang modern dan

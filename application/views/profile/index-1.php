@@ -1,6 +1,6 @@
 <!-- Hero Start -->
 <section class="bg-half d-table w-100"
-	style="background: url('<?= base_url(); ?>assets/images/home/a.jpg') center center; background-size: cover;  background-attachment: fixed;">
+	style="background: url('<?= base_url(); ?>assets/images/profile/front.jpg') center center; background-size: cover;  background-attachment: fixed;">
 	<div class="bg-overlay"></div>
 	<div class="container">
 		<div class="row justify-content-center">
@@ -36,7 +36,7 @@
 <!--Shape End-->
 
 <!-- Blog STart -->
-<section class="section">
+<section class="section" style="background: url('<?= base_url(); ?>assets/images/profile/shape.png') center center; background-size: cover;">
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-12 text-center">

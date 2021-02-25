@@ -1,28 +1,41 @@
 <style>
-	@media (max-width: 768px){
+	@media (max-width: 768px) {
 		.bg-half {
 			padding: 100px 0 50px;
 		}
 	}
+
+	.bg-overlay-white {
+		background-color: rgba(255, 255, 255, 0.6);
+		position: absolute;
+		top: 0;
+		right: 0;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		height: 100%;
+	}
+
 </style>
 
 <section class="d-table w-100 bg-light bg-half"
-	style="background: url('<?= base_url(); ?>assets/images/profile/shape.png">
+	style="background: url('<?= base_url(); ?>assets/images/profile/bg-2.jpg') center center; background-size: cover;"">
+	<div class=" bg-overlay-white">
+	</div>
 	<div class="container">
 		<div class="row align-items-center">
 			<div class="col-md-6 col-12 order-2 order-md-1">
+				<img width="120px" src="<?= base_url(); ?>assets/images/profile/era.png" class="img-fluid d-block"
+					alt="">
 				<div class="title-heading">
-					<span class="badge badge-pill badge-soft-primary">About Us</span>
 					<h1 class="font-weight-bold mt-2 mb-3">PT. Elastis Reka Aktif</h1>
-					<p class="para-desc text-muted">Kami adalah organisasi yang berdedikasi pada alam, berorientasi pada
-						kualitas.
+					<p class="para-desc">Perusahaan manufaktur kantong plastik dan bijih plastik
 					</p>
 				</div>
 			</div>
 			<!--end col-->
 			<div class="col-md-6 mt-4 pt-2 mt-sm-0 pt-sm-0 order-1 order-md-2">
-				<img width="200px" src="<?= base_url(); ?>assets/images/profile/era-icon.png" class="img-fluid d-block mx-auto"
-					alt="">
+
 			</div>
 			<!--end col-->
 			<div class="col-md-12 order-3 order-md-3 text-center">
@@ -55,7 +68,6 @@
 				<div class="card blog blog-detail border-0 shadow rounded">
 					<img src="images/blog/01.jpg" class="img-fluid rounded-top" alt="">
 					<div class="card-body content">
-						<h5 class="mt-3">PT. Elastis Reka Aktif</h5>
 
 						<p class="text-muted mt-3">Untuk menjadi pelopor dan teladan, pada skala nasional dan
 							PT Elastis Reka Aktif memulai hidupnya sebagai PD Era Plastik, yang didirikan pada tahun
