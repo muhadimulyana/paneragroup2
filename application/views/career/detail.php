@@ -84,7 +84,8 @@
 							<i data-feather="briefcase" class="fea icon-ex-md mr-3"></i>
 							<div class="media-body">
 								<h4 class="widget-title mb-0">Experience:</h4>
-								<p class="text-primary mb-0">+3 Years</p>
+								<p class="text-primary mb-0">+1 Years as HSE Staff</p>
+								<p class="text-primary mb-0">+2 Years as Environment Staff</p>
 							</div>
 						</div>
 
@@ -93,14 +94,6 @@
 							<div class="media-body">
 								<h4 class="widget-title mb-0">Qualifications:</h4>
 								<p class="text-primary mb-0">Bachelor Degree</p>
-							</div>
-						</div>
-
-						<div class="media widget align-items-center mt-3">
-							<i data-feather="dollar-sign" class="fea icon-ex-md mr-3"></i>
-							<div class="media-body">
-								<h4 class="widget-title mb-0">Salary:</h4>
-								<p class="text-primary mb-0">-</p>
 							</div>
 						</div>
 
@@ -147,34 +140,34 @@
 
 					<h5 class="mt-4">Requirements & Spesifications: </h5>
 					<ul class="list-unstyled">
-						<li class="text-muted"><i data-feather="check-circle"
+						<li class="text-muted"><i data-feather="arrow-right"
 								class="fea icon-sm text-success mr-2"></i>Usia maksimal 33 tahun.
 						</li>
-						<li class="text-muted"><i data-feather="check-circle"
+						<li class="text-muted"><i data-feather="arrow-right"
 								class="fea icon-sm text-success mr-2"></i>Pendidikan minimal D3 atau S1 (dari jurusan
 							Teknik)
 						</li>
-						<li class="text-muted"><i data-feather="check-circle"
+						<li class="text-muted"><i data-feather="arrow-right"
 								class="fea icon-sm text-success mr-2"></i>Memiliki pengalaman dan paham QMS ISO 9001,
 							ISO 14001 dan SMK3.
 						</li>
-						<li class="text-muted"><i data-feather="check-circle"
+						<li class="text-muted"><i data-feather="arrow-right"
 								class="fea icon-sm text-success mr-2"></i>Memiliki sertifikasi pelatihan Ahli K3 Umum
 							menjadi nilai tambah.
 						</li>
-						<li class="text-muted"><i data-feather="check-circle"
+						<li class="text-muted"><i data-feather="arrow-right"
 								class="fea icon-sm text-success mr-2"></i>Mampu menganalisa masalah dengan teknik
 							problem solving dan 7 alat pengendali kualitas.
 						</li>
-						<li class="text-muted"><i data-feather="check-circle"
+						<li class="text-muted"><i data-feather="arrow-right"
 								class="fea icon-sm text-success mr-2"></i>Berpengalaman minimal 3 tahun sebagai HSE
 							Staff.
 
 						</li>
-						<li class="text-muted"><i data-feather="check-circle"
+						<li class="text-muted"><i data-feather="arrow-right"
 								class="fea icon-sm text-success mr-2"></i>Bersedia dinas ke luar kota.
 						</li>
-						<li class="text-muted"><i data-feather="check-circle"
+						<li class="text-muted"><i data-feather="arrow-right"
 								class="fea icon-sm text-success mr-2"></i>Penempatan di daerah Kapuk, Jakarta Utara.
 						</li>
 					</ul>

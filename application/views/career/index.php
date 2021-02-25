@@ -1,6 +1,6 @@
 <!-- Hero Start -->
 <section class="bg-half d-table w-100"
-	style="background: url('<?= base_url(); ?>assets/images/career/background.jpg') center center; background-size: cover;  background-attachment: fixed;">
+	style="background: url('<?= base_url(); ?>assets/images/career/bg.jpg') center center; background-size: cover;  background-attachment: fixed;">
 	<div class="bg-overlay"></div>
 	<div class="container">
 		<div class="row justify-content-center">
@@ -62,6 +62,8 @@
 							</ul>
 							<div class="media-body content">
 								<h4><a href="javascript:void(0)" class="text-dark title">Graphic Designer</a></h4>
+								<p class="text-muted location-time">Lorem ipsum dolor sit amet, consectetur adipiscing
+									elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 								<p class="text-muted location-time"><span class="text-dark h6">Company:</span>
 									PT. Elastis Reka Aktif<br><span class="text-dark h6">Address:</span>
 									Penjaringan, Jakarta Utara, <span class="text-primary">Indonesia</span> <br> <span
@@ -88,6 +90,8 @@
 							<div class="media-body content">
 								<h4><a href="javascript:void(0)" class="text-dark title">Admin Engineering Staff
 									</a></h4>
+								<p class="text-muted location-time">Lorem ipsum dolor sit amet, consectetur adipiscing
+									elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 								<p class="text-muted location-time"><span class="text-dark h6">Company:</span>
 									PT. Elite Recycling Indonesia<br><span class="text-dark h6">Address:</span>
 									Cikarang, Jawa Barat, <span class="text-primary">Indonesia</span> <br> <span
@@ -114,6 +118,8 @@
 							<div class="media-body content">
 								<h4><a href="javascript:void(0)" class="text-dark title">Field Project
 									</a></h4>
+								<p class="text-muted location-time">Lorem ipsum dolor sit amet, consectetur adipiscing
+									elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 								<p class="text-muted location-time"><span class="text-dark h6">Company:</span>
 									PT. Eterna Persada Indonesia<br><span class="text-dark h6">Address:</span>
 									Cikande, Banten, <span class="text-primary">Indonesia</span> <br> <span
@@ -139,6 +145,8 @@
 							</ul>
 							<div class="media-body content">
 								<h4><a href="javascript:void(0)" class="text-dark title">Executive Assistant</a></h4>
+								<p class="text-muted location-time">Lorem ipsum dolor sit amet, consectetur adipiscing
+									elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 								<p class="text-muted location-time"><span class="text-dark h6">Company:</span>
 									PT. Elastis Reka Aktif<br><span class="text-dark h6">Address:</span>
 									Penjaringan, Jakarta Utara, <span class="text-primary">Indonesia</span> <br> <span
