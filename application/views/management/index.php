@@ -1,6 +1,6 @@
 <!-- Hero Start -->
 <section class="bg-half d-table w-100"
-	style="background: url('<?= base_url(); ?>assets/images/vision/n6.png') center center; background-size: cover;  background-attachment: fixed;">
+	style="background: url('<?= base_url(); ?>assets/images/management/sdm.jpeg') center center; background-size: cover;  background-attachment: fixed;">
 	<div class="bg-overlay"></div>
 	<div class="container">
 		<div class="row justify-content-center">
@@ -42,7 +42,7 @@
 	<div class="container">
 		<div class="row align-items-center">
 			<div class="col-lg-5 col-md-6">
-				<img src="<?= base_url(); ?>assets/images/management/about.jpg" class="img-fluid rounded" alt="">
+				<img src="<?= base_url(); ?>assets/images/management/training.jpg" class="img-fluid rounded" alt="">
 			</div>
 			<!--end col-->
 
