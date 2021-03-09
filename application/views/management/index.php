@@ -6,13 +6,13 @@
 		<div class="row justify-content-center">
 			<div class="col-lg-12 text-center">
 				<div class="page-next-level">
-					<h4 class="title text-white title-dark"> Human Resource </h4>
+					<h4 class="title text-white title-dark"> Manajemen Sumber Daya Manusia </h4>
 					<div class="page-next">
 						<nav aria-label="breadcrumb" class="d-inline-block">
 							<ul class="breadcrumb bg-white rounded shadow mb-0">
-								<li class="breadcrumb-item"><a href="<?= base_url('home'); ?>">Home</a></li>
-								<li class="breadcrumb-item"><a href="javascript:void">Career</a></li>
-								<li class="breadcrumb-item active" aria-current="page">Human Resource</li>
+								<li class="breadcrumb-item"><a href="<?= base_url('home'); ?>">Beranda</a></li>
+								<li class="breadcrumb-item"><a href="javascript:void">Karir</a></li>
+								<li class="breadcrumb-item active" aria-current="page">Manajemen SDM</li>
 							</ul>
 						</nav>
 					</div>
@@ -48,7 +48,7 @@
 
 			<div class="col-lg-7 col-md-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
 				<div class="section-title ml-lg-5">
-					<h4 class="title mb-4">Human Resource Management</h4>
+					<h4 class="title mb-4">Manajemen Sumber Daya Manusia</h4>
 					<p class="text-muted">Kami menyadari pentingnya peranan manusia dalam menentukan keberhasilan sebuah
 						organisasi. Oleh karena itu seiring dengan perkembangan organisasi kami, manajemen sumber daya
 						manusia kami memiliki peranan yang semakin penting.

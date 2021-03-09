@@ -11,7 +11,7 @@
 		<div class="row align-items-center">
 			<div class="col-md-6 col-12 order-2 order-md-1">
 				<div class="title-heading">
-					<span class="badge badge-pill badge-soft-primary">About Us</span>
+					<span class="badge badge-pill badge-soft-primary">Tentang Kami</span>
 					<h1 class="font-weight-bold mt-2 mb-3">Visi & Misi <br> Perusahaan</h1>
 					<p class="para-desc text-muted">Kenali gambaran besar mengenai visi, misi, dan tujuan perusahaan
 					</p>
@@ -28,7 +28,7 @@
 						<nav aria-label="breadcrumb" class="d-inline-block">
 							<ul class="breadcrumb bg-white rounded shadow mb-0">
 								<li class="breadcrumb-item"><a href="<?= base_url('home'); ?>">Home</a></li>
-								<li class="breadcrumb-item"><a href="<?= base_url('profile'); ?>">About Us</a></li>
+								<li class="breadcrumb-item"><a href="<?= base_url('profile'); ?>">Tentang Kami</a></li>
 								<li class="breadcrumb-item active" aria-current="page">Visi & Misi</li>
 							</ul>
 						</nav>
@@ -85,7 +85,7 @@
 					<div class="card-body">
 						<!-- RECENT POST -->
 						<div class="widget mb-4 pb-2">
-							<h5 class="widget-title">About Us</h5>
+							<h5 class="widget-title">Tentang Kami</h5>
 							<div class="mt-4">
 								<div class="clearfix post-recent">
 									<div class="post-recent-thumb float-left" style="width: 18%;"> <a
@@ -94,7 +94,7 @@
 												class="img-fluid rounded"></a></div>
 									<div class="post-recent-content float-left"><a
 											href="<?= site_url('profile/company'); ?>">Company
-											Profile</a><span class="text-muted mt-2">About Us </span></div>
+											Profile</a><span class="text-muted mt-2">Tentang Kami </span></div>
 								</div>
 								<div class="clearfix post-recent">
 									<div class="post-recent-thumb float-left" style="width: 18%;"> <a
@@ -103,7 +103,7 @@
 												class="img-fluid rounded"></a></div>
 									<div class="post-recent-content float-left"><a
 											href="<?= site_url('profile/visi'); ?>">Visi & Misi
-											Perusahaan</a> <span class="text-muted mt-2">About Us </span>
+											Perusahaan</a> <span class="text-muted mt-2">Tentang Kami </span>
 									</div>
 								</div>
 								<div class="clearfix post-recent">
@@ -113,7 +113,7 @@
 												class="img-fluid rounded"></a></div>
 									<div class="post-recent-content float-left"><a
 											href="<?= site_url('profile/era'); ?>">PT. Elastis
-											Reka Aktif</a> <span class="text-muted mt-2">About Us </span></div>
+											Reka Aktif</a> <span class="text-muted mt-2">Tentang Kami </span></div>
 								</div>
 								<div class="clearfix post-recent">
 									<div class="post-recent-thumb float-left" style="width: 18%;"> <a
@@ -122,7 +122,7 @@
 												class="img-fluid rounded"></a></div>
 									<div class="post-recent-content float-left"><a
 											href="<?= site_url('profile/eri'); ?>">PT. Elite
-											Recycling Indonesia</a> <span class="text-muted mt-2">About Us </span>
+											Recycling Indonesia</a> <span class="text-muted mt-2">Tentang Kami </span>
 									</div>
 								</div>
 							</div>

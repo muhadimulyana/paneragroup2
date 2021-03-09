@@ -17,8 +17,8 @@
 					<div class="page-next">
 						<nav aria-label="breadcrumb" class="d-inline-block">
 							<ul class="breadcrumb bg-white rounded shadow mb-0">
-								<li class="breadcrumb-item"><a href="<?=base_url('home');?>">Home</a></li>
-								<li class="breadcrumb-item"><a href="javascript:void">Product</a></li>
+								<li class="breadcrumb-item"><a href="<?=base_url('home');?>">Beranda</a></li>
+								<li class="breadcrumb-item"><a href="javascript:void">Produk</a></li>
 								<li class="breadcrumb-item active" aria-current="page">Bijih Plastik Daur Ulang</li>
 							</ul>
 						</nav>
@@ -96,12 +96,8 @@
 			<div class="col-lg-6 col-md-6 mt-4 mt-lg-0 pt- pt-lg-0">
 				<div class="ml-lg-4">
 					<div class="section-title mb-2 pb-2">
-						<p class="text-muted para-desc">Saat ini Pan Era Group hanya memproduksi biji plastik jenis
-							Polyethylene untuk beragam aplikasi produksi. Biji Plastik HDPE adalah Polietilena
-							berdensitas tinggi (High density polyethylene, HDPE) adalah polietilena termoplastik yang
-							terbuat dari minyak bumi. Membutuhkan 1,75 kg minyak bumi (sebagai energi dan bahan baku)
-							untuk membuat 1 kg HDPE. HDPE dapat didaur ulang, dan memiliki nomor 2 pada simbol daur
-							ulang. Di tahun 2007, volume produksi HDPE mencapai 30 ton.</p>
+						<p class="text-muted para-desc">Kami menyediakan bijih plastik jenis High Density Polyethylene (HDPE) dan Low Density Polyethylene (LDPE). Kandungan output bijih plastik yang kami produksi adalah 100% recycled. Proses produksi bijih plastik secara konsisten diproses melalui standarisasi pengelolahan limbah dengan menggunakan mesin berteknologi tinggi mulai dari pemilahan bahan baku, pencucian hingga menjadi bijih plastik.</p>
+						<p class="text-muted para-desc">Melalui standar kualitas dan harga kompetitif, produk bijih plastik kami dapat digunakan untuk memenuhi kebutuhan bahan baku yang Anda perlukan.</p>
 					</div>
 					<p class="text-muted">Keunggulan produk biji plastik kami dibandingkan dengan produk lain:
 					</p>

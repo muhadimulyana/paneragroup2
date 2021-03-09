@@ -6,13 +6,13 @@
 		<div class="row justify-content-center">
 			<div class="col-lg-12 text-center">
 				<div class="page-next-level">
-					<h4 class="title text-white title-dark"> Career Opportunities </h4>
+					<h4 class="title text-white title-dark"> Kesempatan Berkarir </h4>
 					<div class="page-next">
 						<nav aria-label="breadcrumb" class="d-inline-block">
 							<ul class="breadcrumb bg-white rounded shadow mb-0">
 								<li class="breadcrumb-item"><a href="<?= base_url('home'); ?>">Home</a></li>
-								<li class="breadcrumb-item"><a href="javascript:void">Career</a></li>
-								<li class="breadcrumb-item active" aria-current="page">Career Opportunities</li>
+								<li class="breadcrumb-item"><a href="javascript:void">Karir</a></li>
+								<li class="breadcrumb-item active" aria-current="page">Kesempatan Berkarir</li>
 							</ul>
 						</nav>
 					</div>
@@ -52,7 +52,7 @@
 		</div>
 		<!--end row-->
 		<div class="row">
-			<div class="col-lg-6 mt-4 pt-2">
+			<div class="col-lg-12 mt-4 pt-2">
 				<div class="card event-schedule rounded border">
 					<div class="card-body">
 						<div class="media">
@@ -79,7 +79,7 @@
 			</div>
 			<!--end col-->
 
-			<div class="col-lg-6 mt-4 pt-2">
+			<div class="col-lg-12 mt-4 pt-2">
 				<div class="card event-schedule rounded border">
 					<div class="card-body">
 						<div class="media">
@@ -107,7 +107,7 @@
 			</div>
 			<!--end col-->
 
-			<div class="col-lg-6 mt-4 pt-2">
+			<div class="col-lg-12 mt-4 pt-2">
 				<div class="card event-schedule rounded border">
 					<div class="card-body">
 						<div class="media">
@@ -135,7 +135,7 @@
 			</div>
 			<!--end col-->
 
-			<div class="col-lg-6 mt-4 pt-2">
+			<div class="col-lg-12 mt-4 pt-2">
 				<div class="card event-schedule rounded border">
 					<div class="card-body">
 						<div class="media">

@@ -13,12 +13,12 @@
 		<div class="row justify-content-center">
 			<div class="col-lg-12 text-center">
 				<div class="page-next-level">
-					<h4 class="title text-white title-dark"> Our Product </h4>
+					<h4 class="title text-white title-dark"> Produk Kami </h4>
 					<div class="page-next">
 						<nav aria-label="breadcrumb" class="d-inline-block">
 							<ul class="breadcrumb bg-white rounded shadow mb-0">
-								<li class="breadcrumb-item"><a href="<?= base_url('home'); ?>">Home</a></li>
-								<li class="breadcrumb-item active" aria-current="page">Product</li>
+								<li class="breadcrumb-item"><a href="<?= base_url('home'); ?>">Beranda</a></li>
+								<li class="breadcrumb-item active" aria-current="page">Produk</li>
 							</ul>
 						</nav>
 					</div>

@@ -15,7 +15,7 @@
 		<div class="row align-items-center">
 			<div class="col-lg-7 col-md-7 order-2 order-md-1">
 				<div class="title-heading">
-					<h1 class="title mb-3">Kantong Plastic LOCO <br> <span class="text-primary">Ekonomis</span></h1>
+					<h1 class="title mb-3">Kantong Plastik LOCO <br> <span class="text-primary">Ekonomis</span></h1>
 					<p class="para-desc text-muted"> Kantong plastik LOCO Ekonomis memiliki ketebalan yang berbeda.
 						Namun bukan
 						berarti kualitas LOCO Ekonomis tidak bagus. LOCO Ekonomis didesain untuk membawa barang - barang
